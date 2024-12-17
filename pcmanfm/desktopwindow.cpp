@@ -200,7 +200,7 @@ DesktopWindow::DesktopWindow(int screenNum):
         winId();
         if(QWindow* win = windowHandle()) {
             if(LayerShellQt::Window* layershell = LayerShellQt::Window::get(win)) {
-                layershell->setLayer(LayerShellQt::Window::Layer::LayerBackground);
+                layershell->setLayer(LayerShellQt::Window::Layer::LayerBottom);
                 LayerShellQt::Window::Anchors anchors = {LayerShellQt::Window::AnchorTop
                                                          | LayerShellQt::Window::AnchorBottom
                                                          | LayerShellQt::Window::AnchorLeft
