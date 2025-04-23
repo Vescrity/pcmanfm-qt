@@ -43,6 +43,8 @@
 #include <QRandomGenerator>
 #include <QToolTip>
 
+#include <algorithm>
+
 #include <LayerShellQt/shell.h>
 #include <LayerShellQt/window.h>
 
@@ -70,7 +72,7 @@
 
 namespace PCManFM {
 
-DesktopWindow::DesktopWindow(int screenNum):
+DesktopWindow::DesktopWindow(int screenNum, const QString& screenName):
     View(Fm::FolderView::IconMode),
     proxyModel_(nullptr),
     model_(nullptr),
@@ -81,6 +83,7 @@ DesktopWindow::DesktopWindow(int screenNum):
     fileLauncher_(nullptr),
     desktopHideItems_(false),
     screenNum_(screenNum),
+    screenName_(screenName),
     relayoutTimer_(nullptr),
     selectionTimer_(nullptr),
     trashUpdateTimer_(nullptr),
@@ -116,7 +119,9 @@ DesktopWindow::DesktopWindow(int screenNum):
     // In some older multihead setups, such as xinerama, every physical screen
     // is treated as a separate desktop so many instances of DesktopWindow may be created.
     // In this case we only want to show desktop icons on the primary screen.
-    if((screenNum_ == 0 || qApp->primaryScreen()->virtualSiblings().size() > 1)) {
+    if(static_cast<Application*>(qApp)->underWayland()
+       || screenNum_ == 0
+       || qApp->primaryScreen()->virtualSiblings().size() > 1) {
         loadItemPositions();
 
         setShadowHidden(settings.shadowHidden());
@@ -771,9 +776,9 @@ void DesktopWindow::updateWallpaper(bool checkMTime) {
                             // get the gap between image and screen to avoid overlapping and displacement
                             int x_gap = (image.width() - scrSize.width()) / 2;
                             int y_gap = (image.height() - scrSize.height()) / 2;
-                            scaled = image.copy(qMax(x_gap, 0), qMax(y_gap, 0), scrSize.width(), scrSize.height());
-                            x = scr->geometry().x() + qMax(0, -x_gap);
-                            y = scr->geometry().y() + qMax(0, -y_gap);
+                            scaled = image.copy(std::max(x_gap, 0), std::max(y_gap, 0), scrSize.width(), scrSize.height());
+                            x = scr->geometry().x() + std::max(0, -x_gap);
+                            y = scr->geometry().y() + std::max(0, -y_gap);
                             painter.save();
                             painter.setClipRect(QRect(x, y, image.width(), image.height()));
                             painter.drawImage(x, y, scaled);
@@ -967,7 +972,7 @@ void DesktopWindow::updateFromSettings(Settings& settings, bool changeSlide) {
     setWallpaperDir(wallpaperDir);
     int interval = settings.slideShowInterval();
     if(interval > 0 && (interval < MIN_SLIDE_INTERVAL || interval > MAX_SLIDE_INTERVAL)) {
-        interval = qBound(MIN_SLIDE_INTERVAL, interval, MAX_SLIDE_INTERVAL);
+        interval = std::clamp(interval, MIN_SLIDE_INTERVAL, MAX_SLIDE_INTERVAL);
         settings.setSlideShowInterval(interval);
     }
     setSlideShowInterval(interval);
@@ -1535,7 +1540,11 @@ void DesktopWindow::loadItemPositions() {
     // load custom item positions from the config file and store them in the memory
     customPosStorage_.clear();
     Settings& settings = static_cast<Application*>(qApp)->settings();
-    QString configFile = QStringLiteral("%1/desktop-items-%2.conf").arg(settings.profileDir(settings.profileName())).arg(screenNum_);
+    QString configFile;
+    if(static_cast<Application*>(qApp)->underWayland())
+        configFile = QStringLiteral("%1/desktop-items-%2.conf").arg(settings.profileDir(settings.profileName())).arg(screenName_);
+    else
+        configFile = QStringLiteral("%1/desktop-items-%2.conf").arg(settings.profileDir(settings.profileName())).arg(screenNum_);
     QSettings file(configFile, QSettings::IniFormat);
 
     const auto names = file.childGroups();
@@ -1593,7 +1602,11 @@ void DesktopWindow::retrieveCustomPos() {
 void DesktopWindow::saveItemPositions() {
     // write custom item positions to the config file
     Settings& settings = static_cast<Application*>(qApp)->settings();
-    QString configFile = QStringLiteral("%1/desktop-items-%2.conf").arg(settings.profileDir(settings.profileName())).arg(screenNum_);
+    QString configFile;
+    if(static_cast<Application*>(qApp)->underWayland())
+        configFile = QStringLiteral("%1/desktop-items-%2.conf").arg(settings.profileDir(settings.profileName())).arg(screenName_);
+    else
+        configFile = QStringLiteral("%1/desktop-items-%2.conf").arg(settings.profileDir(settings.profileName())).arg(screenNum_);
     QSettings file(configFile, QSettings::IniFormat);
     file.clear(); // remove all existing entries
 
@@ -2273,8 +2286,8 @@ bool DesktopWindow::stickToPosition(const std::string& file, QPoint& pos,
         if(pos.x() + grid.width() > workArea.right() + 1) {
             pos.setX(workArea.right() + 1 - grid.width());
         }
-        pos.setX(qMax(workArea.left(), pos.x()));
-        pos.setY(qMax(workArea.top(), pos.y()));
+        pos.setX(std::max(workArea.left(), pos.x()));
+        pos.setY(std::max(workArea.top(), pos.y()));
 
         alignToGrid(pos, workArea.topLeft(), grid, listView_->spacing());
     }
@@ -2390,8 +2403,8 @@ QModelIndex DesktopWindow::indexForPos(bool* isTrash, const QPoint& pos, const Q
     if(p.x() + grid.width() > workArea.right() + 1) {
         p.setX(workArea.right() + 1 - grid.width());
     }
-    p.setX(qMax(workArea.left(), p.x()));
-    p.setY(qMax(workArea.top(), p.y()));
+    p.setX(std::max(workArea.left(), p.x()));
+    p.setY(std::max(workArea.top(), p.y()));
     alignToGrid(p, workArea.topLeft(), grid, listView_->spacing());
     // then put the point where the icon rectangle may be
     // (if there is any item, its icon is immediately below the middle of its top side)
@@ -2428,26 +2441,39 @@ void DesktopWindow::paintEvent(QPaintEvent* event) {
     QWidget::paintEvent(event);
 }
 
+// Only on X11.
 void DesktopWindow::setScreenNum(int num) {
     if(screenNum_ != num) {
         screenNum_ = num;
-        loadItemPositions(); // the config file is different
-        queueRelayout();
+        if(!static_cast<Application*>(qApp)->underWayland()) {
+            loadItemPositions(); // the config file is different
+            queueRelayout();
+        }
     }
 }
 
 QScreen* DesktopWindow::getDesktopScreen() const {
     QScreen* desktopScreen = nullptr;
-    if(screenNum_ == -1) {
-        desktopScreen = qApp->primaryScreen();
+    if(static_cast<Application*>(qApp)->underWayland()) {
+        const auto allScreens = qApp->screens();
+        for(const auto& screen : allScreens) {
+            if(screen->name() == screenName_) {
+                return screen;
+            }
+        }
     }
     else {
-        const auto allScreens = qApp->screens();
-        if(allScreens.size() > screenNum_) {
-            desktopScreen = allScreens.at(screenNum_);
+        if(screenNum_ == -1) {
+            desktopScreen = qApp->primaryScreen();
         }
-        if(desktopScreen == nullptr && windowHandle()) {
-            desktopScreen = windowHandle()->screen();
+        else {
+            const auto allScreens = qApp->screens();
+            if(allScreens.size() > screenNum_) {
+                desktopScreen = allScreens.at(screenNum_);
+            }
+            if(desktopScreen == nullptr && windowHandle()) {
+                desktopScreen = windowHandle()->screen();
+            }
         }
     }
     return desktopScreen;

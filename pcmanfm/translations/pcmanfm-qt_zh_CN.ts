@@ -118,27 +118,67 @@ Copyright (C) 2009 - 2014 洪任谕 (Hong Jen Yee)
         <translation>批量重命名</translation>
     </message>
     <message>
-        <location filename="../bulk-rename.ui" line="47"/>
+        <location filename="../bulk-rename.ui" line="12"/>
+        <source>Serial Renaming</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../bulk-rename.ui" line="36"/>
         <source># will be replaced by numbers starting with:</source>
         <translation># 会被替换为数字开始自:</translation>
     </message>
     <message>
-        <location filename="../bulk-rename.ui" line="80"/>
+        <location filename="../bulk-rename.ui" line="68"/>
         <source>Pad numbers with zero if possible</source>
         <translation>需要时补零</translation>
     </message>
     <message>
-        <location filename="../bulk-rename.ui" line="87"/>
+        <location filename="../bulk-rename.ui" line="75"/>
         <source>Use localized numbers</source>
         <translation>使用本地风格数字</translation>
     </message>
     <message>
-        <location filename="../bulk-rename.ui" line="27"/>
-        <source>Rename selected files to:</source>
-        <translation>重命名已选定的文件至:</translation>
+        <location filename="../bulk-rename.ui" line="85"/>
+        <source>Replacement</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../bulk-rename.ui" line="40"/>
+        <location filename="../bulk-rename.ui" line="97"/>
+        <source>Find in names:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../bulk-rename.ui" line="107"/>
+        <source>Replace with:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../bulk-rename.ui" line="117"/>
+        <source>Case-sensitive</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../bulk-rename.ui" line="124"/>
+        <source>Regular expression</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../bulk-rename.ui" line="134"/>
+        <source>Change Case</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../bulk-rename.ui" line="146"/>
+        <source>To upper case</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../bulk-rename.ui" line="156"/>
+        <source>To lower case</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../bulk-rename.ui" line="27"/>
         <source>Name#</source>
         <translation>名称#</translation>
     </message>
@@ -903,359 +943,379 @@ are left clicked, even when it is not the default file manager.</source>
         <translation>图标视图(&amp;I)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="441"/>
+        <location filename="../main-win.ui" line="436"/>
+        <source>Ctrl+Shift+1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../main-win.ui" line="444"/>
         <source>&amp;Compact View</source>
         <translation>列表视图(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="449"/>
+        <location filename="../main-win.ui" line="447"/>
+        <source>Ctrl+Shift+3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../main-win.ui" line="455"/>
         <source>&amp;Detailed List</source>
         <translation>详细信息(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="457"/>
+        <location filename="../main-win.ui" line="458"/>
+        <source>Ctrl+Shift+4</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../main-win.ui" line="466"/>
         <source>&amp;Thumbnail View</source>
         <translation>缩略图视图(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="466"/>
+        <location filename="../main-win.ui" line="469"/>
+        <source>Ctrl+Shift+2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../main-win.ui" line="478"/>
         <source>Cu&amp;t</source>
         <translation>剪切(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="469"/>
+        <location filename="../main-win.ui" line="481"/>
         <source>Ctrl+X</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="478"/>
+        <location filename="../main-win.ui" line="490"/>
         <source>&amp;Copy</source>
         <translation>复制 (&amp;C)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="481"/>
+        <location filename="../main-win.ui" line="493"/>
         <source>Ctrl+C</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="490"/>
+        <location filename="../main-win.ui" line="502"/>
         <source>&amp;Paste</source>
         <translation>粘贴(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="493"/>
+        <location filename="../main-win.ui" line="505"/>
         <source>Ctrl+V</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="502"/>
+        <location filename="../main-win.ui" line="514"/>
         <source>Select &amp;All</source>
         <translation>全选(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="505"/>
+        <location filename="../main-win.ui" line="517"/>
         <source>Ctrl+A</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="510"/>
+        <location filename="../main-win.ui" line="522"/>
         <source>De&amp;select All</source>
         <translation>取消选择 (&amp;S)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="513"/>
+        <location filename="../main-win.ui" line="525"/>
         <source>Ctrl+D</source>
         <translation>Ctrl+D</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="518"/>
+        <location filename="../main-win.ui" line="530"/>
         <source>Pr&amp;eferences</source>
         <translation>偏好设置(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="526"/>
+        <location filename="../main-win.ui" line="538"/>
         <source>&amp;Ascending</source>
         <translation>升序(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="538"/>
+        <location filename="../main-win.ui" line="550"/>
         <source>&amp;Descending</source>
         <translation>降序(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="550"/>
+        <location filename="../main-win.ui" line="562"/>
         <source>&amp;By File Name</source>
         <translation>以文件名( &amp;B)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="558"/>
+        <location filename="../main-win.ui" line="570"/>
         <source>By &amp;Modification Time</source>
         <translation>以修改时间 (&amp;M)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="566"/>
+        <location filename="../main-win.ui" line="578"/>
         <source>By C&amp;reation Time</source>
         <translation>以创建时间(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="574"/>
+        <location filename="../main-win.ui" line="586"/>
         <source>By Deletio&amp;n Time</source>
         <translation>按删除时间</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="582"/>
+        <location filename="../main-win.ui" line="594"/>
         <source>By File &amp;Type</source>
         <translation>以文件类型 (&amp;T)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="590"/>
+        <location filename="../main-win.ui" line="602"/>
         <source>By &amp;Owner</source>
         <translation>按所有者(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="598"/>
+        <location filename="../main-win.ui" line="610"/>
         <source>By &amp;Group</source>
         <translation>按组(&amp;G)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="606"/>
+        <location filename="../main-win.ui" line="618"/>
         <source>&amp;Folder First</source>
         <translation>文件夹优先(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="614"/>
+        <location filename="../main-win.ui" line="626"/>
         <source>&amp;Hidden Last</source>
         <translation>隐藏文件次后(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="927"/>
+        <location filename="../main-win.ui" line="939"/>
         <source>Shift+F2</source>
         <translation>Shift+F2</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="1015"/>
+        <location filename="../main-win.ui" line="1027"/>
         <source>Preserve Settings Recursively from &amp;Here</source>
         <translation>保留从此处重复设置(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="1020"/>
+        <location filename="../main-win.ui" line="1032"/>
         <source>&amp;Go to Source of Inherited Settings</source>
         <translation>（&amp;G）转到继承设置源</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="1025"/>
+        <location filename="../main-win.ui" line="1037"/>
         <source>&amp;Remove Settings of Nonexistent Folders</source>
         <translation>（&amp;R）删除不存在文件夹的设置</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="1033"/>
+        <location filename="../main-win.ui" line="1045"/>
         <source>&amp;Clear</source>
         <translation>清除(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="667"/>
+        <location filename="../main-win.ui" line="679"/>
         <source>Ctrl+Shift+A</source>
         <translation>Ctrl+Shift+A</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="728"/>
+        <location filename="../main-win.ui" line="740"/>
         <source>&amp;Case Sensitive</source>
         <translation>区分大小写(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="736"/>
+        <location filename="../main-win.ui" line="748"/>
         <source>By File &amp;Size</source>
         <translation>以文件大小 (&amp;S)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="745"/>
+        <location filename="../main-win.ui" line="757"/>
         <source>&amp;Close Window</source>
         <translation>关闭窗口(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="748"/>
+        <location filename="../main-win.ui" line="760"/>
         <source>Ctrl+Q</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="770"/>
+        <location filename="../main-win.ui" line="782"/>
         <source>Open Tab in &amp;Root Instance</source>
         <translation>在根实例中打开选项卡(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="784"/>
+        <location filename="../main-win.ui" line="796"/>
         <source>&amp;Folder</source>
         <translation>文件夹(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="796"/>
+        <location filename="../main-win.ui" line="808"/>
         <source>&amp;Blank File</source>
         <translation>空文件(&amp;B)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="887"/>
+        <location filename="../main-win.ui" line="899"/>
         <source>Preserve Settings for &amp;This Folder</source>
         <translation>为这个文件夹保存设置（&amp;T）</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="932"/>
+        <location filename="../main-win.ui" line="944"/>
         <source>&amp;Show/Focus Filter Bar</source>
         <translation>显示/聚焦过滤条(S)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="935"/>
+        <location filename="../main-win.ui" line="947"/>
         <source>Show Filter Bar</source>
         <translation>显示过滤条</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="938"/>
+        <location filename="../main-win.ui" line="950"/>
         <source>Ctrl+I</source>
         <translation>Ctrl+I</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="946"/>
+        <location filename="../main-win.ui" line="958"/>
         <source>S&amp;plit View</source>
         <translation>分屏浏览(S)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="949"/>
+        <location filename="../main-win.ui" line="961"/>
         <source>Split View</source>
         <translation>分屏浏览</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="952"/>
+        <location filename="../main-win.ui" line="964"/>
         <source>F6</source>
         <translation>F6</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="957"/>
+        <location filename="../main-win.ui" line="969"/>
         <source>&amp;Copy Full Path</source>
         <translation>复制完整路径(C)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="964"/>
+        <location filename="../main-win.ui" line="976"/>
         <source>Ctrl+Shift+C</source>
         <translation>Ctrl+Shift+C</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="975"/>
+        <location filename="../main-win.ui" line="987"/>
         <source>Show Thumb&amp;nails</source>
         <translation>显示缩略图(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="978"/>
+        <location filename="../main-win.ui" line="990"/>
         <source>Show Thumbnails</source>
         <translation>显示缩略图</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="986"/>
+        <location filename="../main-win.ui" line="998"/>
         <source>S&amp;ide Pane</source>
         <translation>侧边栏(&amp;I)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="989"/>
+        <location filename="../main-win.ui" line="1001"/>
         <source>F9</source>
         <translation>F9</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="994"/>
+        <location filename="../main-win.ui" line="1006"/>
         <source>Hidden &amp;Shortcuts</source>
         <translation>隐藏快捷键（&amp;S）</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="999"/>
+        <location filename="../main-win.ui" line="1011"/>
         <source>Open Tab in &amp;Admin Mode</source>
         <translation>在管理员模式中打开选项卡&amp;(A)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="1004"/>
-        <location filename="../main-win.ui" line="1007"/>
+        <location filename="../main-win.ui" line="1016"/>
+        <location filename="../main-win.ui" line="1019"/>
         <source>Create Launcher</source>
         <translation>创建启动器</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="822"/>
+        <location filename="../main-win.ui" line="834"/>
         <source>Ctrl+B</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="827"/>
+        <location filename="../main-win.ui" line="839"/>
         <source>&amp;Clear All Filters</source>
         <translation>清除所有过滤(C)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="830"/>
+        <location filename="../main-win.ui" line="842"/>
         <source>Ctrl+Shift+K</source>
         <translation>Ctrl+Shift+K</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="839"/>
+        <location filename="../main-win.ui" line="851"/>
         <source>Close &amp;previous tabs</source>
         <translation>关闭上一个标签页(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="848"/>
+        <location filename="../main-win.ui" line="860"/>
         <source>Close &amp;next tabs</source>
         <translation>关闭下一个标签页(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="896"/>
+        <location filename="../main-win.ui" line="908"/>
         <source>Connect to &amp;Server</source>
         <translation>连接至服务器(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="904"/>
+        <location filename="../main-win.ui" line="916"/>
         <source>&amp;Location</source>
         <translation>位置(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="912"/>
+        <location filename="../main-win.ui" line="924"/>
         <source>&amp;Path Buttons</source>
         <translation>路径按钮(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="917"/>
+        <location filename="../main-win.ui" line="929"/>
         <source>&amp;Bulk Rename</source>
         <translation>批量重命名(&amp;B)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="924"/>
+        <location filename="../main-win.ui" line="936"/>
         <source>Bulk Rename</source>
         <translation>批量重命名</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="853"/>
+        <location filename="../main-win.ui" line="865"/>
         <source>Close &amp;other tabs</source>
         <translation>关闭其他标签页(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="819"/>
+        <location filename="../main-win.ui" line="831"/>
         <source>Permanent &amp;filter bar</source>
         <translation>永久过滤器栏(F)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="861"/>
+        <location filename="../main-win.ui" line="873"/>
         <source>&amp;Menu bar</source>
         <translation>菜单栏(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="864"/>
+        <location filename="../main-win.ui" line="876"/>
         <source>Menu bar</source>
         <translation>菜单栏</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="867"/>
+        <location filename="../main-win.ui" line="879"/>
         <source>Ctrl+M</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="876"/>
-        <location filename="../main-win.ui" line="879"/>
+        <location filename="../main-win.ui" line="888"/>
+        <location filename="../main-win.ui" line="891"/>
         <source>Menu</source>
         <translation>菜单</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="623"/>
+        <location filename="../main-win.ui" line="635"/>
         <source>New &amp;Tab</source>
         <translation>新建标签页(&amp;T)</translation>
     </message>
@@ -1265,132 +1325,132 @@ are left clicked, even when it is not the default file manager.</source>
         <translation>（&amp;C）自定义视图设置</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="626"/>
+        <location filename="../main-win.ui" line="638"/>
         <source>New Tab</source>
         <translation>新建标签页</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="629"/>
+        <location filename="../main-win.ui" line="641"/>
         <source>Ctrl+T</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="638"/>
+        <location filename="../main-win.ui" line="650"/>
         <source>Go &amp;Back</source>
         <translation>后退(&amp;B)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="641"/>
+        <location filename="../main-win.ui" line="653"/>
         <source>Go Back</source>
         <translation>后退</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="644"/>
+        <location filename="../main-win.ui" line="656"/>
         <source>Alt+Left</source>
         <translation>Alt+Left</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="653"/>
+        <location filename="../main-win.ui" line="665"/>
         <source>Go &amp;Forward</source>
         <translation>前进(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="656"/>
+        <location filename="../main-win.ui" line="668"/>
         <source>Go Forward</source>
         <translation>前进</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="659"/>
+        <location filename="../main-win.ui" line="671"/>
         <source>Alt+Right</source>
         <translation>Alt+右</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="664"/>
+        <location filename="../main-win.ui" line="676"/>
         <source>&amp;Invert Selection</source>
         <translation>反选(&amp;I)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="676"/>
+        <location filename="../main-win.ui" line="688"/>
         <source>&amp;Delete</source>
         <translation>删除(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="679"/>
+        <location filename="../main-win.ui" line="691"/>
         <source>Del</source>
         <translation>Del</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="684"/>
+        <location filename="../main-win.ui" line="696"/>
         <source>&amp;Rename</source>
         <translation>重命名(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="691"/>
+        <location filename="../main-win.ui" line="703"/>
         <source>F2</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="700"/>
+        <location filename="../main-win.ui" line="712"/>
         <source>C&amp;lose Tab</source>
         <translation>关闭标签页(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="703"/>
+        <location filename="../main-win.ui" line="715"/>
         <source>Ctrl+W</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="712"/>
+        <location filename="../main-win.ui" line="724"/>
         <source>File &amp;Properties</source>
         <translation>文件属性(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="715"/>
+        <location filename="../main-win.ui" line="727"/>
         <source>Alt+Return</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="720"/>
+        <location filename="../main-win.ui" line="732"/>
         <source>&amp;Folder Properties</source>
         <translation>文件夹属性(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="753"/>
+        <location filename="../main-win.ui" line="765"/>
         <source>Edit Bookmarks</source>
         <translation>编辑书签</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="762"/>
+        <location filename="../main-win.ui" line="774"/>
         <source>Open &amp;Terminal</source>
         <translation>打开终端(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="765"/>
+        <location filename="../main-win.ui" line="777"/>
         <source>F4</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="775"/>
+        <location filename="../main-win.ui" line="787"/>
         <source>&amp;Edit Bookmarks</source>
         <translation>编辑书签(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="787"/>
+        <location filename="../main-win.ui" line="799"/>
         <source>Ctrl+Shift+N</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="799"/>
+        <location filename="../main-win.ui" line="811"/>
         <source>Ctrl+Alt+N</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="804"/>
+        <location filename="../main-win.ui" line="816"/>
         <source>&amp;Find Files</source>
         <translation>查找文件(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="811"/>
+        <location filename="../main-win.ui" line="823"/>
         <source>F3</source>
         <translation></translation>
     </message>
@@ -1444,99 +1504,99 @@ are left clicked, even when it is not the default file manager.</source>
 <context>
     <name>PCManFM::Application</name>
     <message>
-        <location filename="../application.cpp" line="187"/>
+        <location filename="../application.cpp" line="189"/>
         <source>Name of configuration profile</source>
         <translation>配置文件名称</translation>
     </message>
     <message>
-        <location filename="../application.cpp" line="187"/>
+        <location filename="../application.cpp" line="189"/>
         <source>PROFILE</source>
         <translation>配置文件</translation>
     </message>
     <message>
-        <location filename="../application.cpp" line="190"/>
+        <location filename="../application.cpp" line="192"/>
         <source>Run PCManFM-Qt as a daemon</source>
         <translation>以 Daemon 模式运行 PCManFM-Qt</translation>
     </message>
     <message>
-        <location filename="../application.cpp" line="193"/>
+        <location filename="../application.cpp" line="195"/>
         <source>Quit PCManFM-Qt</source>
         <translation>退出 PCManFM-Qt</translation>
     </message>
     <message>
-        <location filename="../application.cpp" line="196"/>
+        <location filename="../application.cpp" line="198"/>
         <source>Launch desktop manager</source>
         <translation>运行桌面管理器</translation>
     </message>
     <message>
-        <location filename="../application.cpp" line="199"/>
+        <location filename="../application.cpp" line="201"/>
         <source>Turn off desktop manager if it&apos;s running</source>
         <translation>如桌面管理器正在运行，请关闭</translation>
     </message>
     <message>
-        <location filename="../application.cpp" line="202"/>
+        <location filename="../application.cpp" line="204"/>
         <source>Open desktop preference dialog on the page with the specified name</source>
         <translation>在此页面上以指定名称打开桌面偏好设定对话框</translation>
     </message>
     <message>
-        <location filename="../application.cpp" line="202"/>
-        <location filename="../application.cpp" line="217"/>
+        <location filename="../application.cpp" line="204"/>
+        <location filename="../application.cpp" line="219"/>
         <source>NAME</source>
         <translation>名称</translation>
     </message>
     <message>
-        <location filename="../application.cpp" line="205"/>
+        <location filename="../application.cpp" line="207"/>
         <source>Open new window</source>
         <translation>打开新窗口</translation>
     </message>
     <message>
-        <location filename="../application.cpp" line="208"/>
+        <location filename="../application.cpp" line="210"/>
         <source>Open Find Files utility</source>
         <translation>打开文件搜索实用程序</translation>
     </message>
     <message>
-        <location filename="../application.cpp" line="211"/>
+        <location filename="../application.cpp" line="213"/>
         <source>Set desktop wallpaper from image FILE</source>
         <translation>从图像文件设置桌面墙纸</translation>
     </message>
     <message>
-        <location filename="../application.cpp" line="211"/>
+        <location filename="../application.cpp" line="213"/>
         <source>FILE</source>
         <translation>文件</translation>
     </message>
     <message>
-        <location filename="../application.cpp" line="214"/>
+        <location filename="../application.cpp" line="216"/>
         <source>MODE</source>
         <translation>模式</translation>
     </message>
     <message>
-        <location filename="../application.cpp" line="214"/>
+        <location filename="../application.cpp" line="216"/>
         <source>Set mode of desktop wallpaper. MODE=(%1)</source>
         <translation>设置桌面墙纸的布局模式 模式=(%1)</translation>
     </message>
     <message>
-        <location filename="../application.cpp" line="217"/>
+        <location filename="../application.cpp" line="219"/>
         <source>Open Preferences dialog on the page with the specified name</source>
         <translation>在此页面上以指定名称打开偏好设定对话框</translation>
     </message>
     <message>
-        <location filename="../application.cpp" line="220"/>
+        <location filename="../application.cpp" line="222"/>
         <source>Files or directories to open</source>
         <translation>要打开的文件或目录</translation>
     </message>
     <message>
-        <location filename="../application.cpp" line="220"/>
+        <location filename="../application.cpp" line="222"/>
         <source>[FILE1, FILE2,...]</source>
         <translation>[文件1, 文件2,...]</translation>
     </message>
     <message>
-        <location filename="../application.cpp" line="658"/>
-        <location filename="../application.cpp" line="663"/>
+        <location filename="../application.cpp" line="660"/>
+        <location filename="../application.cpp" line="665"/>
         <source>Error</source>
         <translation>错误</translation>
     </message>
     <message>
-        <location filename="../application.cpp" line="663"/>
+        <location filename="../application.cpp" line="665"/>
         <source>Terminal emulator is not set.</source>
         <translation>终端模拟器未设置。</translation>
     </message>
@@ -1633,47 +1693,47 @@ are left clicked, even when it is not the default file manager.</source>
 <context>
     <name>PCManFM::DesktopPreferencesDialog</name>
     <message>
-        <location filename="../desktoppreferencesdialog.cpp" line="52"/>
+        <location filename="../desktoppreferencesdialog.cpp" line="55"/>
         <source>Fill with background color only</source>
         <translation>仅以背景色填充</translation>
     </message>
     <message>
-        <location filename="../desktoppreferencesdialog.cpp" line="53"/>
+        <location filename="../desktoppreferencesdialog.cpp" line="56"/>
         <source>Stretch to fill the entire screen</source>
         <translation>拉伸图像以填充整个屏幕</translation>
     </message>
     <message>
-        <location filename="../desktoppreferencesdialog.cpp" line="54"/>
+        <location filename="../desktoppreferencesdialog.cpp" line="57"/>
         <source>Stretch to fit the screen</source>
         <translation>拉伸图像以适合屏幕</translation>
     </message>
     <message>
-        <location filename="../desktoppreferencesdialog.cpp" line="55"/>
+        <location filename="../desktoppreferencesdialog.cpp" line="58"/>
         <source>Center on the screen</source>
         <translation>在屏幕上居中</translation>
     </message>
     <message>
-        <location filename="../desktoppreferencesdialog.cpp" line="56"/>
+        <location filename="../desktoppreferencesdialog.cpp" line="59"/>
         <source>Tile the image to fill the entire screen</source>
         <translation>平铺图像以填充整个屏幕</translation>
     </message>
     <message>
-        <location filename="../desktoppreferencesdialog.cpp" line="57"/>
+        <location filename="../desktoppreferencesdialog.cpp" line="60"/>
         <source>Zoom the image to fill the entire screen</source>
         <translation>缩放图像以填充整个屏幕</translation>
     </message>
     <message>
-        <location filename="../desktoppreferencesdialog.cpp" line="266"/>
+        <location filename="../desktoppreferencesdialog.cpp" line="272"/>
         <source>Select Wallpaper</source>
         <translation>选择壁纸</translation>
     </message>
     <message>
-        <location filename="../desktoppreferencesdialog.cpp" line="270"/>
+        <location filename="../desktoppreferencesdialog.cpp" line="276"/>
         <source>Image Files</source>
         <translation>图像文件</translation>
     </message>
     <message>
-        <location filename="../desktoppreferencesdialog.cpp" line="312"/>
+        <location filename="../desktoppreferencesdialog.cpp" line="318"/>
         <source>Select Wallpaper Folder</source>
         <translation>选择壁纸文件夹</translation>
     </message>
@@ -1681,60 +1741,60 @@ are left clicked, even when it is not the default file manager.</source>
 <context>
     <name>PCManFM::DesktopWindow</name>
     <message>
-        <location filename="../desktopwindow.cpp" line="328"/>
+        <location filename="../desktopwindow.cpp" line="333"/>
         <source>Trash (One item)</source>
         <translation>回收站( 1 个项目)</translation>
     </message>
     <message numerus="yes">
-        <location filename="../desktopwindow.cpp" line="331"/>
+        <location filename="../desktopwindow.cpp" line="336"/>
         <source>Trash (%Ln items)</source>
         <translation>
             <numerusform>回收站( %Ln 个项目)</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../desktopwindow.cpp" line="335"/>
+        <location filename="../desktopwindow.cpp" line="340"/>
         <source>Trash (Empty)</source>
         <translation>回收站(空)</translation>
     </message>
     <message>
-        <location filename="../desktopwindow.cpp" line="370"/>
+        <location filename="../desktopwindow.cpp" line="375"/>
         <source>Computer</source>
         <translation>计算机</translation>
     </message>
     <message>
-        <location filename="../desktopwindow.cpp" line="384"/>
+        <location filename="../desktopwindow.cpp" line="389"/>
         <source>Network</source>
         <translation>网络</translation>
     </message>
     <message>
-        <location filename="../desktopwindow.cpp" line="1047"/>
+        <location filename="../desktopwindow.cpp" line="1052"/>
         <source>Open</source>
         <translation>打开</translation>
     </message>
     <message>
-        <location filename="../desktopwindow.cpp" line="1053"/>
-        <location filename="../desktopwindow.cpp" line="1093"/>
+        <location filename="../desktopwindow.cpp" line="1058"/>
+        <location filename="../desktopwindow.cpp" line="1098"/>
         <source>Stic&amp;k to Current Position</source>
         <translation>固定至当前位置(&amp;K)</translation>
     </message>
     <message>
-        <location filename="../desktopwindow.cpp" line="1061"/>
+        <location filename="../desktopwindow.cpp" line="1066"/>
         <source>Empty Trash</source>
         <translation>清空回收站</translation>
     </message>
     <message>
-        <location filename="../desktopwindow.cpp" line="1127"/>
+        <location filename="../desktopwindow.cpp" line="1132"/>
         <source>Hide Desktop Items</source>
         <translation>隐藏桌面项目</translation>
     </message>
     <message>
-        <location filename="../desktopwindow.cpp" line="1133"/>
+        <location filename="../desktopwindow.cpp" line="1138"/>
         <source>Create Launcher</source>
         <translation>创建启动器</translation>
     </message>
     <message>
-        <location filename="../desktopwindow.cpp" line="1136"/>
+        <location filename="../desktopwindow.cpp" line="1141"/>
         <source>Desktop Preferences</source>
         <translation>桌面偏好设置</translation>
     </message>
@@ -1758,60 +1818,60 @@ are left clicked, even when it is not the default file manager.</source>
 <context>
     <name>PCManFM::MainWindow</name>
     <message>
-        <location filename="../mainwindow.cpp" line="143"/>
+        <location filename="../mainwindow.cpp" line="142"/>
         <source>Root Instance</source>
         <translation>您正在使用 Root 用户实例</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="786"/>
+        <location filename="../mainwindow.cpp" line="776"/>
         <source>Hide menu bar</source>
         <translation>隐藏菜单栏</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="787"/>
+        <location filename="../mainwindow.cpp" line="777"/>
         <source>This will hide the menu bar completely, use Ctrl+M to show it again.</source>
         <translation>这将完全隐藏菜单栏，请使用 Ctrl+M 以恢复显示。</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1234"/>
+        <location filename="../mainwindow.cpp" line="1224"/>
         <source>Version: %1</source>
         <translation>版本: %1</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="176"/>
-        <location filename="../mainwindow.cpp" line="2203"/>
+        <location filename="../mainwindow.cpp" line="175"/>
+        <location filename="../mainwindow.cpp" line="2193"/>
         <source>&amp;Move to Trash</source>
         <translation>移至回收站(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="176"/>
-        <location filename="../mainwindow.cpp" line="2203"/>
+        <location filename="../mainwindow.cpp" line="175"/>
+        <location filename="../mainwindow.cpp" line="2193"/>
         <source>&amp;Delete</source>
         <translation>删除(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="2039"/>
+        <location filename="../mainwindow.cpp" line="2029"/>
         <source>Customized View Settings</source>
         <translation>自定义的视图设置</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="2310"/>
-        <location filename="../mainwindow.cpp" line="2318"/>
+        <location filename="../mainwindow.cpp" line="2300"/>
+        <location filename="../mainwindow.cpp" line="2308"/>
         <source>Error</source>
         <translation>错误</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="2318"/>
+        <location filename="../mainwindow.cpp" line="2308"/>
         <source>Switch user command is not set.</source>
         <translation>切换用户命令尚未设置。</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="2409"/>
+        <location filename="../mainwindow.cpp" line="2399"/>
         <source>Cleaning Folder Settings</source>
         <translation>清除文件夹设置</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="2410"/>
+        <location filename="../mainwindow.cpp" line="2400"/>
         <source>Do you want to remove settings of nonexistent folders?
 They might be useful if those folders are created again.</source>
         <translation>是否要删除不存在的文件夹的设置? 如果再次创建这些文件夹，它们可能会很有用。</translation>
@@ -1820,32 +1880,32 @@ They might be useful if those folders are created again.</source>
 <context>
     <name>PCManFM::PreferencesDialog</name>
     <message>
-        <location filename="../preferencesdialog.cpp" line="212"/>
+        <location filename="../preferencesdialog.cpp" line="215"/>
         <source>Icon View</source>
         <translation>图标视图</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="213"/>
+        <location filename="../preferencesdialog.cpp" line="216"/>
         <source>Compact View</source>
         <translation>列表视图</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="214"/>
+        <location filename="../preferencesdialog.cpp" line="217"/>
         <source>Thumbnail View</source>
         <translation>缩略图视图</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="215"/>
+        <location filename="../preferencesdialog.cpp" line="218"/>
         <source>Detailed List View</source>
         <translation>详细信息视图</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="308"/>
+        <location filename="../preferencesdialog.cpp" line="311"/>
         <source>Remove if added by user</source>
         <translation>如果由用户添加，则删除</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="332"/>
+        <location filename="../preferencesdialog.cpp" line="335"/>
         <source>Open user-defined list</source>
         <translation>打开用户定义列表</translation>
     </message>
@@ -1853,68 +1913,68 @@ They might be useful if those folders are created again.</source>
 <context>
     <name>PCManFM::TabPage</name>
     <message>
-        <location filename="../tabpage.cpp" line="446"/>
+        <location filename="../tabpage.cpp" line="452"/>
         <source>Search Results</source>
         <translation>搜索结果</translation>
     </message>
     <message>
-        <location filename="../tabpage.cpp" line="449"/>
+        <location filename="../tabpage.cpp" line="455"/>
         <source>Applications</source>
         <translation>应用程序</translation>
     </message>
     <message>
-        <location filename="../tabpage.cpp" line="453"/>
+        <location filename="../tabpage.cpp" line="459"/>
         <source>Computer</source>
         <translation>计算机</translation>
     </message>
     <message>
-        <location filename="../tabpage.cpp" line="456"/>
+        <location filename="../tabpage.cpp" line="462"/>
         <source>Network</source>
         <translation>网络</translation>
     </message>
     <message>
-        <location filename="../tabpage.cpp" line="459"/>
+        <location filename="../tabpage.cpp" line="465"/>
         <source>Trash</source>
         <translation>回收站</translation>
     </message>
     <message>
-        <location filename="../tabpage.cpp" line="465"/>
+        <location filename="../tabpage.cpp" line="471"/>
         <source>Desktop</source>
         <translation>桌面</translation>
     </message>
     <message>
-        <location filename="../tabpage.cpp" line="556"/>
+        <location filename="../tabpage.cpp" line="562"/>
         <source>Error</source>
         <translation>错误</translation>
     </message>
     <message>
-        <location filename="../tabpage.cpp" line="565"/>
+        <location filename="../tabpage.cpp" line="571"/>
         <source>Free space: %1 (Total: %2)</source>
         <translation>可用空间: %1 (总容量: %2)</translation>
     </message>
     <message numerus="yes">
-        <location filename="../tabpage.cpp" line="582"/>
+        <location filename="../tabpage.cpp" line="588"/>
         <source>%n item(s)</source>
         <translation>
             <numerusform>%n 个项目</numerusform>
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../tabpage.cpp" line="584"/>
+        <location filename="../tabpage.cpp" line="590"/>
         <source> (%n hidden)</source>
         <translation>
             <numerusform> (%n 个隐藏)</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../tabpage.cpp" line="589"/>
-        <location filename="../tabpage.cpp" line="790"/>
-        <location filename="../tabpage.cpp" line="804"/>
+        <location filename="../tabpage.cpp" line="595"/>
+        <location filename="../tabpage.cpp" line="796"/>
+        <location filename="../tabpage.cpp" line="810"/>
         <source>Link to</source>
         <translation>链接至</translation>
     </message>
     <message numerus="yes">
-        <location filename="../tabpage.cpp" line="816"/>
+        <location filename="../tabpage.cpp" line="822"/>
         <source>%n item(s) selected</source>
         <translation>
             <numerusform>已选中 %n 个项目</numerusform>
@@ -1936,20 +1996,30 @@ They might be useful if those folders are created again.</source>
         </translation>
     </message>
     <message>
-        <location filename="../view.cpp" line="122"/>
+        <location filename="../view.cpp" line="133"/>
         <source>Open in New T&amp;ab</source>
         <translation>在新标签页中打开(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../view.cpp" line="126"/>
+        <location filename="../view.cpp" line="137"/>
         <source>Open in New Win&amp;dow</source>
         <translation>在新窗口中打开(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../view.cpp" line="134"/>
-        <location filename="../view.cpp" line="152"/>
+        <location filename="../view.cpp" line="145"/>
+        <location filename="../view.cpp" line="174"/>
         <source>Open in Termina&amp;l</source>
         <translation>在终端中打开(&amp;L)</translation>
+    </message>
+    <message>
+        <location filename="../view.cpp" line="160"/>
+        <source>Show in New T&amp;ab</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../view.cpp" line="164"/>
+        <source>Show in New Win&amp;dow</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2470,44 +2540,72 @@ lxsudo dbus-run-session -- %s</source>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../bulkrename.cpp" line="89"/>
+        <location filename="../bulkrename.cpp" line="185"/>
+        <location filename="../bulkrename.cpp" line="247"/>
+        <location filename="../bulkrename.cpp" line="288"/>
         <source>Renaming files...</source>
         <translation>重命名文件...</translation>
     </message>
     <message>
-        <location filename="../bulkrename.cpp" line="89"/>
+        <location filename="../bulkrename.cpp" line="185"/>
+        <location filename="../bulkrename.cpp" line="247"/>
+        <location filename="../bulkrename.cpp" line="288"/>
         <source>Abort</source>
         <translation>忽略</translation>
     </message>
     <message>
-        <location filename="../bulkrename.cpp" line="98"/>
+        <location filename="../bulkrename.cpp" line="194"/>
+        <location filename="../bulkrename.cpp" line="254"/>
+        <location filename="../bulkrename.cpp" line="295"/>
         <source>Warning</source>
         <translation>警告</translation>
     </message>
     <message>
-        <location filename="../bulkrename.cpp" line="98"/>
+        <location filename="../bulkrename.cpp" line="194"/>
+        <location filename="../bulkrename.cpp" line="254"/>
+        <location filename="../bulkrename.cpp" line="295"/>
         <source>Renaming is aborted.</source>
         <translation>重命名已取消。</translation>
     </message>
     <message>
-        <location filename="../bulkrename.cpp" line="124"/>
-        <location filename="../bulkrename.cpp" line="127"/>
-        <location filename="../tabpage.cpp" line="1143"/>
+        <location filename="../bulkrename.cpp" line="220"/>
+        <location filename="../bulkrename.cpp" line="224"/>
+        <location filename="../bulkrename.cpp" line="234"/>
+        <location filename="../bulkrename.cpp" line="243"/>
+        <location filename="../bulkrename.cpp" line="277"/>
+        <location filename="../bulkrename.cpp" line="281"/>
+        <location filename="../bulkrename.cpp" line="318"/>
+        <location filename="../bulkrename.cpp" line="322"/>
+        <location filename="../tabpage.cpp" line="1149"/>
         <source>Error</source>
         <translation>错误</translation>
     </message>
     <message>
-        <location filename="../bulkrename.cpp" line="124"/>
+        <location filename="../bulkrename.cpp" line="220"/>
+        <location filename="../bulkrename.cpp" line="277"/>
+        <location filename="../bulkrename.cpp" line="318"/>
         <source>No file could be renamed.</source>
         <translation>没有文件可以被重命名。</translation>
     </message>
     <message>
-        <location filename="../bulkrename.cpp" line="127"/>
+        <location filename="../bulkrename.cpp" line="224"/>
+        <location filename="../bulkrename.cpp" line="281"/>
+        <location filename="../bulkrename.cpp" line="322"/>
         <source>Some files could not be renamed.</source>
         <translation>某些文件不能被重命名。</translation>
     </message>
     <message>
-        <location filename="../tabpage.cpp" line="1143"/>
+        <location filename="../bulkrename.cpp" line="234"/>
+        <source>Nothing to find.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../bulkrename.cpp" line="243"/>
+        <source>Invalid regular expression.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../tabpage.cpp" line="1149"/>
         <source>Cannot open as Admin.</source>
         <translation>无法以管理员身份打开。</translation>
     </message>

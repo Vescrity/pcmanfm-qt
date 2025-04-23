@@ -72,7 +72,6 @@ ViewFrame::ViewFrame(QWidget* parent):
 
     // tabbed browsing interface
     tabBar_->setDocumentMode(true);
-    tabBar_->setElideMode(Qt::ElideRight);
     tabBar_->setExpanding(false);
     tabBar_->setMovable(true); // reorder the tabs by dragging
     // switch to the tab under the cursor during dnd.
@@ -339,16 +338,6 @@ MainWindow::MainWindow(Fm::FilePath path):
         shortcut = new QShortcut(QKeySequence(Qt::CTRL | (Qt::Key_0 + i)), this);
         connect(shortcut, &QShortcut::activated, this, &MainWindow::onShortcutJumpToTab);
     }
-
-    shortcut = new QShortcut(QKeySequence(Qt::Key_Backspace), this);
-    connect(shortcut, &QShortcut::activated, [this, &settings] {
-        // pass Backspace to current page if it has a visible, transient filter-bar
-        if(!settings.showFilter() && currentPage() && currentPage()->isFilterBarVisible()) {
-            currentPage()->backspacePressed();
-            return;
-        }
-        on_actionGoUp_triggered();
-    });
 
     shortcut = new QShortcut(QKeySequence(Qt::SHIFT | Qt::Key_Delete), this);
     connect(shortcut, &QShortcut::activated, this, &MainWindow::on_actionDelete_triggered);
@@ -704,6 +693,7 @@ int MainWindow::addTabWithPage(TabPage* page, ViewFrame* viewFrame, Fm::FilePath
     connect(page, &TabPage::sortFilterChanged, this, &MainWindow::onTabPageSortFilterChanged);
     connect(page, &TabPage::backwardRequested, this, &MainWindow::on_actionGoBack_triggered);
     connect(page, &TabPage::forwardRequested, this, &MainWindow::on_actionGoForward_triggered);
+    connect(page, &TabPage::backspacePressed, this, &MainWindow::on_actionGoUp_triggered);
     connect(page, &TabPage::folderUnmounted, this, &MainWindow::onFolderUnmounted);
 
     if(path) {
@@ -2416,12 +2406,21 @@ void MainWindow::on_actionCleanPerFolderConfig_triggered() {
     }
 }
 
-void MainWindow::openFolderAndSelectFles(const Fm::FilePathList& files) {
+void MainWindow::openFolderAndSelectFiles(const Fm::FilePathList& files, bool inNewTab) {
     if(!files.empty()) {
         if(auto path = files.front().parent()) {
-            TabPage* newPage = new TabPage(this);
-            addTabWithPage(newPage, activeViewFrame_, std::move(path));
-            newPage->setFilesToSelect(files);
+            if(!inNewTab) {
+                auto win = new MainWindow(path);
+                win->show();
+                if(auto page = win->currentPage()) {
+                    page->setFilesToSelect(files);
+                }
+            }
+            else {
+                TabPage* newPage = new TabPage(this);
+                addTabWithPage(newPage, activeViewFrame_, std::move(path));
+                newPage->setFilesToSelect(files);
+            }
         }
     }
 }

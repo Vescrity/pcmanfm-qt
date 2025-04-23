@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="nl">
+<TS version="2.1" language="ka">
 <context>
     <name>AboutDialog</name>
     <message>
         <location filename="../about.ui" line="14"/>
         <source>About</source>
-        <translation>Over</translation>
+        <translation>შესახებ</translation>
     </message>
     <message>
         <location filename="../about.ui" line="25"/>
@@ -16,14 +16,14 @@
     <message>
         <location filename="../about.ui" line="48"/>
         <source>Lightweight file manager</source>
-        <translation>Lichte bestandsbeheerder</translation>
+        <translation>მსუბუქი ფაილების მმართველი</translation>
     </message>
     <message>
         <location filename="../about.ui" line="122"/>
         <source>Programming:
 * Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
 </source>
-        <translation>Programmeur:
+        <translation>პროგრამირება:
 * Hong Jen Yee (PCMan) &lt;pcman.tw@gmail.com&gt;
 </translation>
     </message>
@@ -46,27 +46,28 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.</source>
-        <translation>Copyright © 2009 - 2014 洪任諭 (Hong Jen Yee)
+        <translation>PCManFM-Qt File Manager
 
-Dit programma is vrije programmatuur; u kunt het verspreiden en/of 
-aanpassen binnen de voorwaarden van de GNU General Public License 
-zoals gepubliceerd door de Free Software Foundation; hetzij versie 2 
-van die licentie hetzij (naar uw eigen keuze) een nieuwere versie.
+საავტორო უფლებები დაცულია (C) 2009 - 2014 洪任諭 (Hong Jen Yee)
 
-Dit programma wordt verspreid in de hoop dat het bruikbaar is, maar 
-ZONDER ENIGE GARANTIE; zelfs zonder de garantie van VERKOOPBAARHEID 
-of BRUIKBAARHEID VOOR EEN BEPAALD DOEL. Zie de GNU General Public 
-License voor meer bijzonderheden.
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
 
-Een exemplaar van de GNU General Public License heeft u, als het 
-goed is, samen met dit programma gekregen; schrijf anders naar de 
-Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, 
-Boston, MA 02110-1301 USA.</translation>
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.</translation>
     </message>
     <message>
         <location filename="../about.ui" line="113"/>
         <source>Authors</source>
-        <translation>Makers</translation>
+        <translation>ავტორები</translation>
     </message>
     <message>
         <location filename="../about.ui" line="58"/>
@@ -81,7 +82,7 @@ Boston, MA 02110-1301 USA.</translation>
     <message>
         <location filename="../about.ui" line="135"/>
         <source>License</source>
-        <translation>Licentie</translation>
+        <translation>ლიცენზია</translation>
     </message>
 </context>
 <context>
@@ -89,27 +90,27 @@ Boston, MA 02110-1301 USA.</translation>
     <message>
         <location filename="../autorun.ui" line="14"/>
         <source>Removable medium is inserted</source>
-        <translation>Er is een verwijderbare schijf ingevoerd</translation>
+        <translation>ჩადებულია მოხსნადი მედია</translation>
     </message>
     <message>
         <location filename="../autorun.ui" line="33"/>
         <source>&lt;b&gt;Removable medium is inserted&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Er is een verwijderbare schijf ingevoerd&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;მიერთებულია მოხსნადი მედია&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../autorun.ui" line="40"/>
         <source>Type of medium:</source>
-        <translation>Soort schijf:</translation>
+        <translation>მედიის ტიპი:</translation>
     </message>
     <message>
         <location filename="../autorun.ui" line="47"/>
         <source>Detecting...</source>
-        <translation>Bezig met herkennen…</translation>
+        <translation>მიმდინარეობს აღმოჩენა...</translation>
     </message>
     <message>
         <location filename="../autorun.ui" line="56"/>
         <source>Please select the action you want to perform:</source>
-        <translation>Kies de te ondernemen actie:</translation>
+        <translation>აირჩიეთ ქმედება, რომელიც გნებავთ, შეასრულოთ:</translation>
     </message>
 </context>
 <context>
@@ -117,72 +118,72 @@ Boston, MA 02110-1301 USA.</translation>
     <message>
         <location filename="../bulk-rename.ui" line="6"/>
         <source>Bulk Rename</source>
-        <translation>Meerdere namen wijzigen</translation>
+        <translation>ერთზე მეტი ფაილის სახელი გადარქმევა</translation>
     </message>
     <message>
         <location filename="../bulk-rename.ui" line="12"/>
         <source>Serial Renaming</source>
-        <translation>Seriematig namen wĳzigen</translation>
+        <translation>სერიული სახელის გადარქმევა</translation>
     </message>
     <message>
         <location filename="../bulk-rename.ui" line="36"/>
         <source># will be replaced by numbers starting with:</source>
-        <translation># zal worden vervangen door nummers, te beginnen met:</translation>
+        <translation># ჩანაცვლდება რიცხვები, რომლებიც დაიწყება:</translation>
     </message>
     <message>
         <location filename="../bulk-rename.ui" line="68"/>
         <source>Pad numbers with zero if possible</source>
-        <translation>Voorloopnullen gebruiken (indien mogelijk)</translation>
+        <translation>რიცხვების შევსება ნულებით, თუ შესაძლებელია</translation>
     </message>
     <message>
         <location filename="../bulk-rename.ui" line="75"/>
         <source>Use localized numbers</source>
-        <translation>Getallen uit systeemtaal gebruiken</translation>
+        <translation>ლოკალიზებული რიცხვების გამოყენება</translation>
     </message>
     <message>
         <location filename="../bulk-rename.ui" line="85"/>
         <source>Replacement</source>
-        <translation>Vervanging</translation>
+        <translation>ჩანაცვლება</translation>
     </message>
     <message>
         <location filename="../bulk-rename.ui" line="97"/>
         <source>Find in names:</source>
-        <translation>Zoeken naar:</translation>
+        <translation>ძებნა სახელებში:</translation>
     </message>
     <message>
         <location filename="../bulk-rename.ui" line="107"/>
         <source>Replace with:</source>
-        <translation>Vervangen door:</translation>
+        <translation>ჩანაცვლება რით:</translation>
     </message>
     <message>
         <location filename="../bulk-rename.ui" line="117"/>
         <source>Case-sensitive</source>
-        <translation>Hoofdlettergevoelig</translation>
+        <translation>რეგისტრზე დამოკიდებული</translation>
     </message>
     <message>
         <location filename="../bulk-rename.ui" line="124"/>
         <source>Regular expression</source>
-        <translation>Reguliere uitdrukking</translation>
+        <translation>რეგულარულ გამოსახულება</translation>
     </message>
     <message>
         <location filename="../bulk-rename.ui" line="134"/>
         <source>Change Case</source>
-        <translation>Hoofdlettergebruik aanpassen</translation>
+        <translation>რეგისტრის შეცვლა</translation>
     </message>
     <message>
         <location filename="../bulk-rename.ui" line="146"/>
         <source>To upper case</source>
-        <translation>Hoofdletters</translation>
+        <translation>დიდი ასოებით</translation>
     </message>
     <message>
         <location filename="../bulk-rename.ui" line="156"/>
         <source>To lower case</source>
-        <translation>Kleine letters</translation>
+        <translation>პატარა ასოებით</translation>
     </message>
     <message>
         <location filename="../bulk-rename.ui" line="27"/>
         <source>Name#</source>
-        <translation>Naam#</translation>
+        <translation>სახელი#</translation>
     </message>
 </context>
 <context>
@@ -190,42 +191,42 @@ Boston, MA 02110-1301 USA.</translation>
     <message>
         <location filename="../connect.ui" line="14"/>
         <source>Connect to remote server</source>
-        <translation>Verbinden met server op afstand</translation>
+        <translation>მიერთება დაშორებულ სერვერთან</translation>
     </message>
     <message>
         <location filename="../connect.ui" line="80"/>
         <source>Anonymous &amp;login</source>
-        <translation>Anoniem aanme&amp;lden</translation>
+        <translation>ანონიმურად შესვ&amp;ლა</translation>
     </message>
     <message>
         <location filename="../connect.ui" line="90"/>
         <source>Login as &amp;user:</source>
-        <translation>Aanmelden als &amp;gebruiker:</translation>
+        <translation>შესვლა მომხმარ&amp;ებლით:</translation>
     </message>
     <message>
         <location filename="../connect.ui" line="29"/>
         <source>Specify remote folder to connect</source>
-        <translation>Geef op met welke map op afstand moet worden verbonden</translation>
+        <translation>მიუთითეთ დაშორებული საქაღალდე დასაკავშირებლად</translation>
     </message>
     <message>
         <location filename="../connect.ui" line="36"/>
         <source>Type:</source>
-        <translation>Soort:</translation>
+        <translation>ტიპი:</translation>
     </message>
     <message>
         <location filename="../connect.ui" line="56"/>
         <source>Port:</source>
-        <translation>Poort:</translation>
+        <translation>პორტი:</translation>
     </message>
     <message>
         <location filename="../connect.ui" line="70"/>
         <source>Path:</source>
-        <translation>Locatie:</translation>
+        <translation>მისამართი:</translation>
     </message>
     <message>
         <location filename="../connect.ui" line="46"/>
         <source>Host:</source>
-        <translation>Host:</translation>
+        <translation>ჰოსტი:</translation>
     </message>
 </context>
 <context>
@@ -233,117 +234,117 @@ Boston, MA 02110-1301 USA.</translation>
     <message>
         <location filename="../desktopentrydialog.ui" line="14"/>
         <source>Create Launcher</source>
-        <translation>Starter aanmaken</translation>
+        <translation>გამშვების შექმნა</translation>
     </message>
     <message>
         <location filename="../desktopentrydialog.ui" line="38"/>
         <source>Name:</source>
-        <translation>Naam:</translation>
+        <translation>სახელი:</translation>
     </message>
     <message>
         <location filename="../desktopentrydialog.ui" line="45"/>
         <source>Specific name of this launcher.</source>
-        <translation>De naam van deze starter.</translation>
+        <translation>ამ გამშვების სახელი.</translation>
     </message>
     <message>
         <location filename="../desktopentrydialog.ui" line="58"/>
         <source>Description:</source>
-        <translation>Beschrijving:</translation>
+        <translation>აღწერა:</translation>
     </message>
     <message>
         <location filename="../desktopentrydialog.ui" line="65"/>
         <source>A short description or generic name, like &quot;Web Browser&quot; or &quot;Home Directory&quot;.
 
 It can be left empty.</source>
-        <translation>Een korte beschrijving of verklarende naam, zoals ‘Webbrowser’ of ‘Persoonlijke map’.
+        <translation>მოკლე აღწერა, ან ზოგადი სახელი, როგორიცაა &quot;ბრაუზერი&quot; ან &quot;საწყისის საქაღალდე&quot;.
 
-Dit veld is niet verplicht.</translation>
+ან, უბრალოდ, ცარიელი დატოვეთ.</translation>
     </message>
     <message>
         <location filename="../desktopentrydialog.ui" line="77"/>
         <source>Comment:</source>
-        <translation>Opdracht:</translation>
+        <translation>კომენტარი:</translation>
     </message>
     <message>
         <location filename="../desktopentrydialog.ui" line="84"/>
         <source>A short comment.
 
 It can be left empty.</source>
-        <translation>Een korte opmerking.
+        <translation>მოკლე კომენტარი.
 
-Dit veld is niet verplicht.</translation>
+შეიძლება, ცარიელი იყოს.</translation>
     </message>
     <message>
         <location filename="../desktopentrydialog.ui" line="117"/>
         <source>Command:</source>
-        <translation>Opdracht:</translation>
+        <translation>ბრძანება:</translation>
     </message>
     <message>
         <location filename="../desktopentrydialog.ui" line="133"/>
         <location filename="../desktopentrydialog.ui" line="164"/>
         <source>...</source>
-        <translation>…</translation>
+        <translation>...</translation>
     </message>
     <message>
         <location filename="../desktopentrydialog.ui" line="142"/>
         <source>Icon:</source>
-        <translation>Pictogram:</translation>
+        <translation>ხატულა:</translation>
     </message>
     <message>
         <location filename="../desktopentrydialog.ui" line="151"/>
         <source>Icon to display in file manager, menus, etc.</source>
-        <translation>Het pictogram dat wordt getoond in de bestandsbeheerder, menu&apos;s, etc.</translation>
+        <translation>ხატულა ფაილების მმართველში, მენიუებში და ა.შ. საჩვენებლად.</translation>
     </message>
     <message>
         <location filename="../desktopentrydialog.ui" line="173"/>
         <location filename="../desktopentrydialog.ui" line="183"/>
         <source>Run in terminal?</source>
-        <translation>Uitvoeren in terminalvenster</translation>
+        <translation>გავუშვა ტერმინალში?</translation>
     </message>
     <message>
         <location filename="../desktopentrydialog.ui" line="176"/>
         <source>Terminal:</source>
-        <translation>Terminalvenster:</translation>
+        <translation>ტერმინალი:</translation>
     </message>
     <message>
         <location filename="../desktopentrydialog.ui" line="186"/>
         <source>Whether the launched program should run in a terminal window.</source>
-        <translation>Of het programma in een terminalvenster dient te worden gestart.</translation>
+        <translation>უნდა გაეშვას თუ არა გაშვებული პროგრამა ტერმინალის ფანჯარაში.</translation>
     </message>
     <message>
         <location filename="../desktopentrydialog.ui" line="190"/>
         <source>No</source>
-        <translation>Nee</translation>
+        <translation>არა</translation>
     </message>
     <message>
         <location filename="../desktopentrydialog.ui" line="195"/>
         <source>Yes</source>
-        <translation>Ja</translation>
+        <translation>კი</translation>
     </message>
     <message>
         <location filename="../desktopentrydialog.ui" line="203"/>
         <source>Type:</source>
-        <translation>Soort:</translation>
+        <translation>ტიპი:</translation>
     </message>
     <message>
         <location filename="../desktopentrydialog.ui" line="210"/>
         <source>Whether this is a link or executes a command.</source>
-        <translation>Of dit een snelkoppeling of opdracht is.</translation>
+        <translation>უშვებს თუ არა ეს ბმული ბრძანებას.</translation>
     </message>
     <message>
         <location filename="../desktopentrydialog.ui" line="214"/>
         <source>Application</source>
-        <translation>Programma</translation>
+        <translation>პროგრამა</translation>
     </message>
     <message>
         <location filename="../desktopentrydialog.ui" line="219"/>
         <source>Link</source>
-        <translation>Link</translation>
+        <translation>ბმული</translation>
     </message>
     <message>
         <location filename="../desktopentrydialog.ui" line="96"/>
         <source>Categories:</source>
-        <translation>Categorieën:</translation>
+        <translation>კატეგორიები:</translation>
     </message>
     <message>
         <location filename="../desktopentrydialog.ui" line="103"/>
@@ -352,11 +353,11 @@ Dit veld is niet verplicht.</translation>
 It is needed only when you want to use the created file in the main menu. Otherwise, you could leave it empty.
 
 Examples: AudioVideo, Audio, Video, Development, Education, Game, Graphics, Network, Office, Settings, System, Utility, Qt.</source>
-        <translation>Een puntkommagescheiden lijst met categorieën waar het item in kwestie aan moet worden toegevoegd indien gebruikt door het hoofdmenu (bijv. in ~/.local/share/applications).
+        <translation>კატეგორიის სახელები მენიუსთვის .desktop ფაილში, მხოლოდ, ინგლისურად მუშაობს.
 
-Let op: dit alléén nodig als je het item in het hoofdmenu wilt. Je mag het veld ook leeg laten..
+ეს, მხოლოდ, მაშინაა საჭირო, როცა ფაილს მთავარ მენიუში ქმნით. წინააღმდეგ შემთხვევაშ შეეშვით მას.
 
-Voorbeelden: AudioVideo;Audio;Video;Ontwikkeling;Onderwijs;Spellen;Grafisch;Netwerk;Kantoor;Instellingen;Systeem;Hulpmiddelen;Qt.</translation>
+მაგ: AudioVideo, Audio, Video, Development, Education, Game, Graphics, Network, Office, Settings, System, Utility, Qt.</translation>
     </message>
 </context>
 <context>
@@ -364,32 +365,32 @@ Voorbeelden: AudioVideo;Audio;Video;Ontwikkeling;Onderwijs;Spellen;Grafisch;Netw
     <message>
         <location filename="../desktop-folder.ui" line="14"/>
         <source>Form</source>
-        <translation>Vorm</translation>
+        <translation>ფორმა</translation>
     </message>
     <message>
         <location filename="../desktop-folder.ui" line="23"/>
         <source>Desktop</source>
-        <translation>Bureaublad</translation>
+        <translation>სამაგიდო</translation>
     </message>
     <message>
         <location filename="../desktop-folder.ui" line="29"/>
         <source>Desktop folder:</source>
-        <translation>Bureaubladmap:</translation>
+        <translation>სამუშაო მაგიდის საქაღალდე:</translation>
     </message>
     <message>
         <location filename="../desktop-folder.ui" line="36"/>
         <source>Image file</source>
-        <translation>Afbeeldingsbestand</translation>
+        <translation>გამოსახულების ფაილი</translation>
     </message>
     <message>
         <location filename="../desktop-folder.ui" line="42"/>
         <source>Folder path</source>
-        <translation>Maplocatie</translation>
+        <translation>საქაღალდის ბილიკი</translation>
     </message>
     <message>
         <location filename="../desktop-folder.ui" line="49"/>
         <source>&amp;Browse</source>
-        <translation>&amp;Kiezen</translation>
+        <translation>&amp;არჩევა</translation>
     </message>
 </context>
 <context>
@@ -397,93 +398,93 @@ Voorbeelden: AudioVideo;Audio;Video;Ontwikkeling;Onderwijs;Spellen;Grafisch;Netw
     <message>
         <location filename="../desktop-preferences.ui" line="14"/>
         <source>Desktop Preferences</source>
-        <translation>Bureaubladinstellingen</translation>
+        <translation>სამუშაო მაგიდის მორგება</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="338"/>
         <location filename="../desktop-preferences.ui" line="344"/>
         <source>Background</source>
-        <translation>Achtergrond</translation>
+        <translation>ფონი</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="385"/>
         <source>Wallpaper mode:</source>
-        <translation>Achtergrondmodus:</translation>
+        <translation>ფონის სურათის რეჟიმი:</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="408"/>
         <source>Wallpaper image file:</source>
-        <translation>Achtergrondafbeelding:</translation>
+        <translation>ფონის სურათის ფაილი:</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="350"/>
         <source>Select background color:</source>
-        <translation>Kies een achtergrondkleur:</translation>
+        <translation>აირჩიეთ ფონის ფერი:</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="417"/>
         <source>Image file</source>
-        <translation>Afbeeldingsbestand</translation>
+        <translation>გამოსახულების ფაილი</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="423"/>
         <source>Image file path</source>
-        <translation>Locatie van afbeeldingsbestand</translation>
+        <translation>გამოსახულების ფაილის ბილიკი</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="430"/>
         <source>&amp;Browse</source>
-        <translation>&amp;Kiezen</translation>
+        <translation>&amp;არჩევა</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="30"/>
         <source>Icons</source>
-        <translation>Pictogrammen</translation>
+        <translation>ხატულები</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="36"/>
         <source>Icon size:</source>
-        <translation>Pictogramgrootte:</translation>
+        <translation>ხატულების ზომა:</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="49"/>
         <source>Label Text</source>
-        <translation>Labeltekst</translation>
+        <translation>ჭდის ტექსტი</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="113"/>
         <source>Select shadow color:</source>
-        <translation>Kies een schaduwkleur:</translation>
+        <translation>აირჩიეთ ჩრდილის ფერი:</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="61"/>
         <source>Select font:</source>
-        <translation>Kies een lettertype:</translation>
+        <translation>აირჩიეთ ფონტი:</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="24"/>
         <source>General</source>
-        <translation>Algemeen</translation>
+        <translation>ზოგადი</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="87"/>
         <source>Select text color:</source>
-        <translation>Kies een tekstkleur:</translation>
+        <translation>აირჩიეთ ტექსტის ფერი:</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="136"/>
         <source>Spacing</source>
-        <translation>Afstand</translation>
+        <translation>გამოტოვება</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="145"/>
         <source>Minimum item margins:</source>
-        <translation>Minimale afstand tussen items:</translation>
+        <translation>მინიმალური ელემენტის საზღვრები:</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="152"/>
         <source>3 px by default.</source>
-        <translation>Standaard: 3 px.</translation>
+        <translation>3 px ნაგულისხმევად.</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="155"/>
@@ -493,7 +494,7 @@ Voorbeelden: AudioVideo;Audio;Video;Ontwikkeling;Onderwijs;Spellen;Grafisch;Netw
         <location filename="../desktop-preferences.ui" line="275"/>
         <location filename="../desktop-preferences.ui" line="287"/>
         <source> px</source>
-        <translation> px</translation>
+        <translation> პქს</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="168"/>
@@ -504,135 +505,135 @@ Voorbeelden: AudioVideo;Audio;Video;Ontwikkeling;Onderwijs;Spellen;Grafisch;Netw
         <location filename="../desktop-preferences.ui" line="175"/>
         <source>1 px by default.
 A space is also reserved for 3 lines of text.</source>
-        <translation>Standaard: 1 px.
-Er is tevens ruimte gereserveerd voor drie regels tekst.</translation>
+        <translation>1 px ნაგულისხმევად.
+ასევე დაცულია ადგილი 3 ხაზი ტექსტისთვის.</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="192"/>
         <source>Lock</source>
-        <translation>Vergrendelen</translation>
+        <translation>ჩაკეტვა</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="230"/>
         <source>Margins of work area:</source>
-        <translation>Marges van werkomgeving:</translation>
+        <translation>სამუშაო ადგილის საზღვრები:</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="303"/>
         <source>By default, desktop folders will be opened in PCManFM-Qt if they
 are left clicked, even when it is not the default file manager.</source>
-        <translation>Standaard worden bureaubladmappen geopend in PCManFM-Qt,
-zelfs als dat niet de standaard bestandsbeheerder is.</translation>
+        <translation>ნაგულისხმევად სამუშაო მაგიდის საქაღალდეები PCManFM-Qt-ში გაიხსნება, თუ
+მათზე მარცხენა ღილაკით დააწკაპუნებთ, მაშინაც, კი, თუ ის ნაგულისხმევი ფაილების მმართველი არაა.</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="307"/>
         <source>Open desktop folders in default file manager by left clicking</source>
-        <translation>Buereaubladmappen openen in standaard bestandsbeheerder</translation>
+        <translation>სამუშაო ფაილის საქაღაღალდეების ნაგულისხმევ ფაილების მმართველში გახსნა მასზე მარცხენა წკაპით</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="314"/>
         <source>Make all items stick to their positions</source>
-        <translation>Alle items vergrendelen</translation>
+        <translation>ყველა ელემენტის მიწებება თავის მდებარეობაზე</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="373"/>
         <source>Wallpaper</source>
-        <translation>Achtergrond</translation>
+        <translation>ფონის სურათი</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="439"/>
         <source>Transform image based on EXIF data</source>
-        <translation>Afbeelding inpassen op basis van exif-gegevens</translation>
+        <translation>გამოსახულების გარდაქმნა მისი EXIF მონაცემების მიხედვით</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="446"/>
         <source>Individual wallpaper for each monitor</source>
-        <translation>Ieder beeldscherm voorzien van andere achtergrond</translation>
+        <translation>ცალ-ცალკე ფონის სურათი თითოეული ეკრანისთვის</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="473"/>
         <source>Slide Show</source>
-        <translation>Diavoorstelling</translation>
+        <translation>სლაიდების ჩვენება</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="479"/>
         <source>Enable Slide Show</source>
-        <translation>Diavoorstelling tonen</translation>
+        <translation>სლაიდშოუს ჩართვა</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="491"/>
         <source>Wallpaper image folder:</source>
-        <translation>Map met bureaubladachtergronden:</translation>
+        <translation>ფონის სურათის საქაღალდე:</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="505"/>
         <source>Browse</source>
-        <translation>Kiezen</translation>
+        <translation>პოვნა</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="512"/>
         <source> hour(s)</source>
-        <translation> uur</translation>
+        <translation> საათი</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="522"/>
         <source>and</source>
-        <translation>en</translation>
+        <translation>და</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="535"/>
         <source>Intervals less than 5min will be ignored</source>
-        <translation>Tussenpozen van minder dan 5 minuten worden genegeerd</translation>
+        <translation>5 წუთზე ნაკლები ინტერვალები გამოტოვებული იქნება</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="538"/>
         <source>Interval:</source>
-        <translation>Tussenpoos:</translation>
+        <translation>ინტერვალი:</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="545"/>
         <source> minute(s)</source>
-        <translation> minu(u)t(en)</translation>
+        <translation> წუთი</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="498"/>
         <source>Wallpaper folder</source>
-        <translation>Map met bureaubladachtergrond</translation>
+        <translation>ფონის სურათის საქაღალდე</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="587"/>
         <source>Randomize the slide show</source>
-        <translation>Dia&apos;s in willekeurige volgorde tonen</translation>
+        <translation>სლაიდშოუს შემთხვევითობა</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="620"/>
         <source>Visible Shortcuts</source>
-        <translation>Getoonde snelkoppelingen</translation>
+        <translation>ხილული მალსახმობები</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="626"/>
         <source>Home</source>
-        <translation>Persoonlijke map</translation>
+        <translation>Home</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="637"/>
         <source>Trash</source>
-        <translation>Prullenbak</translation>
+        <translation>ნაგავი</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="648"/>
         <source>Computer</source>
-        <translation>Computer</translation>
+        <translation>კომპიუტერი</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="659"/>
         <source>Network</source>
-        <translation>Netwerk</translation>
+        <translation>ქსელი</translation>
     </message>
     <message>
         <location filename="../desktop-preferences.ui" line="614"/>
         <source>Advanced</source>
-        <translation>Geavanceerd</translation>
+        <translation>დამატებით</translation>
     </message>
 </context>
 <context>
@@ -640,17 +641,17 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../shortcuts.ui" line="14"/>
         <source>Hidden Shortcuts</source>
-        <translation>Verborgen sneltoetsen</translation>
+        <translation>დამალული მალსახმობები</translation>
     </message>
     <message>
         <location filename="../shortcuts.ui" line="21"/>
         <source>Shortcut</source>
-        <translation>Sneltoets</translation>
+        <translation>მალმხმობი</translation>
     </message>
     <message>
         <location filename="../shortcuts.ui" line="26"/>
         <source>Action</source>
-        <translation>Actie</translation>
+        <translation>პარამეტრები</translation>
     </message>
     <message>
         <location filename="../shortcuts.ui" line="31"/>
@@ -660,7 +661,7 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../shortcuts.ui" line="34"/>
         <source>Focus view, clear filter bar</source>
-        <translation>Focussen op weergave en filterbalk leegmaken</translation>
+        <translation>ფოკუსი ხედზე, ფილტრის პანელის გასუფთავება</translation>
     </message>
     <message>
         <location filename="../shortcuts.ui" line="39"/>
@@ -670,7 +671,7 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../shortcuts.ui" line="42"/>
         <source>Focus side-pane</source>
-        <translation>Focussen op zijpaneel</translation>
+        <translation>ფოკუსი გვერდით პანელზე</translation>
     </message>
     <message>
         <location filename="../shortcuts.ui" line="47"/>
@@ -681,7 +682,7 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
         <location filename="../shortcuts.ui" line="50"/>
         <location filename="../shortcuts.ui" line="58"/>
         <source>Focus path entry</source>
-        <translation>Focussen op locatie-invoer</translation>
+        <translation>ფოკუსი მისამართის ველზე</translation>
     </message>
     <message>
         <location filename="../shortcuts.ui" line="55"/>
@@ -697,7 +698,7 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
         <location filename="../shortcuts.ui" line="66"/>
         <location filename="../shortcuts.ui" line="82"/>
         <source>Next tab</source>
-        <translation>Volgend tabblad</translation>
+        <translation>_შემდეგი ჩანართი</translation>
     </message>
     <message>
         <location filename="../shortcuts.ui" line="71"/>
@@ -708,7 +709,7 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
         <location filename="../shortcuts.ui" line="74"/>
         <location filename="../shortcuts.ui" line="90"/>
         <source>Previous tab</source>
-        <translation>Vorig tabblad</translation>
+        <translation>_წინა ჩანართი</translation>
     </message>
     <message>
         <location filename="../shortcuts.ui" line="79"/>
@@ -723,18 +724,18 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../shortcuts.ui" line="95"/>
         <source>Ctrl+Number</source>
-        <translation>Ctrl+getal</translation>
+        <translation>Ctrl+რიცხვი</translation>
     </message>
     <message>
         <location filename="../shortcuts.ui" line="98"/>
         <location filename="../shortcuts.ui" line="106"/>
         <source>Jump to tab</source>
-        <translation>Ga naar tabblad</translation>
+        <translation>გადასვლა ჩანართზე</translation>
     </message>
     <message>
         <location filename="../shortcuts.ui" line="103"/>
         <source>Alt+Number</source>
-        <translation>Alt+getal</translation>
+        <translation>Alt+რიცხვი</translation>
     </message>
     <message>
         <location filename="../shortcuts.ui" line="111"/>
@@ -744,7 +745,7 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../shortcuts.ui" line="114"/>
         <source>Go up</source>
-        <translation>Ga omhoog</translation>
+        <translation>მაღლა ასვლა</translation>
     </message>
     <message>
         <location filename="../shortcuts.ui" line="119"/>
@@ -754,7 +755,7 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../shortcuts.ui" line="122"/>
         <source>Search dialog</source>
-        <translation>Zoekvenster tonen</translation>
+        <translation>ძებნის დიალოგი</translation>
     </message>
     <message>
         <location filename="../shortcuts.ui" line="127"/>
@@ -764,37 +765,37 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../shortcuts.ui" line="130"/>
         <source>Paste into transient filter bar</source>
-        <translation>Plakken op filterbalk</translation>
+        <translation>ჩასმა გარდამავალი ფილტრის პანელში</translation>
     </message>
     <message>
         <location filename="../shortcuts.ui" line="135"/>
         <source>Drop+Shift</source>
-        <translation>Neerzetten+Shift</translation>
+        <translation>დაგდება+Shift</translation>
     </message>
     <message>
         <location filename="../shortcuts.ui" line="143"/>
         <source>Drop+Ctrl</source>
-        <translation>Neerzetten+Ctrl</translation>
+        <translation>დაგდება+Ctrl</translation>
     </message>
     <message>
         <location filename="../shortcuts.ui" line="151"/>
         <source>Drop+Shift+Ctrl</source>
-        <translation>Neerzetten+Shift+Ctrl</translation>
+        <translation>დაგდება+Shift+Ctrl</translation>
     </message>
     <message>
         <location filename="../shortcuts.ui" line="138"/>
         <source>Move file on dropping</source>
-        <translation>Bestand na loslaten verplaatsen</translation>
+        <translation>ფაილის გადატანა დაგდებისას</translation>
     </message>
     <message>
         <location filename="../shortcuts.ui" line="146"/>
         <source>Copy file on dropping</source>
-        <translation>Bestand na loslaten kopiëren</translation>
+        <translation>ფაილის კოპირება დაგდებისას</translation>
     </message>
     <message>
         <location filename="../shortcuts.ui" line="154"/>
         <source>Make a symlink on dropping</source>
-        <translation>Snelkoppeling maken na loslaten</translation>
+        <translation>სიმბმულის შექმნა დაგდებისას</translation>
     </message>
 </context>
 <context>
@@ -802,52 +803,52 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../main-win.ui" line="14"/>
         <source>File Manager</source>
-        <translation>Bestandsbeheerder</translation>
+        <translation>ფაილების მმართველი</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="81"/>
         <source>Recent F&amp;iles</source>
-        <translation>Recente bes&amp;tanden</translation>
+        <translation>უახლესი ფა&amp;ილები</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="143"/>
         <source>&amp;Toolbars</source>
-        <translation>&amp;Werkbalken</translation>
+        <translation>&amp;ხელსაწყოთა ზოლები</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="150"/>
         <source>Path &amp;Bar</source>
-        <translation>Locatie&amp;balk</translation>
+        <translation>&amp;ბილიკის ზოლი</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="157"/>
         <source>&amp;Filtering</source>
-        <translation>&amp;Filteren</translation>
+        <translation>&amp;გაფილტვრა</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="232"/>
         <source>&amp;Tools</source>
-        <translation>Hulpmi&amp;ddelen</translation>
+        <translation>&amp;ხელსაწყოები</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="291"/>
         <source>Go &amp;Up</source>
-        <translation>Ga om&amp;hoog</translation>
+        <translation>&amp;ასვლა</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="294"/>
         <source>Go Up</source>
-        <translation>Ga omhoog</translation>
+        <translation>მაღლა ასვლა</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="297"/>
         <source>Alt+Up</source>
-        <translation>Alt+Pijl omhoog</translation>
+        <translation>Alt+Up</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="306"/>
         <source>&amp;Home</source>
-        <translation>&amp;Persoonlijke map</translation>
+        <translation>&amp;საწყისი</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="309"/>
@@ -857,7 +858,7 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../main-win.ui" line="318"/>
         <source>&amp;Reload</source>
-        <translation>He&amp;rladen</translation>
+        <translation>თავიდან ჩატვირთვა</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="321"/>
@@ -867,27 +868,27 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../main-win.ui" line="330"/>
         <source>Go</source>
-        <translation>Ga naar</translation>
+        <translation>წინ</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="339"/>
         <source>Quit</source>
-        <translation>Afsluiten</translation>
+        <translation>გასვლა</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="348"/>
         <source>&amp;About</source>
-        <translation>&amp;Over</translation>
+        <translation>&amp;შესახებ</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="357"/>
         <source>&amp;New Window</source>
-        <translation>&amp;Nieuw venster</translation>
+        <translation>&amp;ახალი ფანჯარა</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="360"/>
         <source>New Window</source>
-        <translation>Nieuw venster</translation>
+        <translation>ახალი ფანჯარა</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="363"/>
@@ -897,7 +898,7 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../main-win.ui" line="371"/>
         <source>Show &amp;Hidden</source>
-        <translation>&amp;Verborgen bestanden/mappen tonen</translation>
+        <translation>დამა&amp;ლულების ჩვენება</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="374"/>
@@ -907,42 +908,42 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../main-win.ui" line="383"/>
         <source>&amp;Computer</source>
-        <translation>&amp;Computer</translation>
+        <translation>&amp;კომპიუტერი</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="392"/>
         <source>&amp;Trash</source>
-        <translation>&amp;Prullenbak</translation>
+        <translation>&amp;ნაგვის ყუთი</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="397"/>
         <source>&amp;Network</source>
-        <translation>&amp;Netwerk</translation>
+        <translation>&amp;ქსელი</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="406"/>
         <source>&amp;Desktop</source>
-        <translation>&amp;Bureaublad</translation>
+        <translation>&amp;სამუშაო მაგიდა</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="415"/>
         <source>&amp;Add to Bookmarks</source>
-        <translation>Toevoegen &amp;aan bladwijzers</translation>
+        <translation>ს&amp;ანიშნეებში ჩამატება</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="420"/>
         <source>&amp;Applications</source>
-        <translation>Progr&amp;amma&apos;s</translation>
+        <translation>&amp;აპლიკაციები</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="425"/>
         <source>Reload</source>
-        <translation>Herladen</translation>
+        <translation>თავიდან ჩატვირთვა</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="433"/>
         <source>&amp;Icon View</source>
-        <translation>P&amp;ictogramweergave</translation>
+        <translation>&amp;ხატულების ხედი</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="436"/>
@@ -952,7 +953,7 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../main-win.ui" line="444"/>
         <source>&amp;Compact View</source>
-        <translation>&amp;Compacte weergave</translation>
+        <translation>&amp;კომპაქტური ხედი</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="447"/>
@@ -962,7 +963,7 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../main-win.ui" line="455"/>
         <source>&amp;Detailed List</source>
-        <translation>Uitgebrei&amp;de lijst</translation>
+        <translation>&amp;დეტალური სია</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="458"/>
@@ -972,7 +973,7 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../main-win.ui" line="466"/>
         <source>&amp;Thumbnail View</source>
-        <translation>Minia&amp;tuurweergave</translation>
+        <translation>მინია&amp;ტურების ხედი</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="469"/>
@@ -982,7 +983,7 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../main-win.ui" line="478"/>
         <source>Cu&amp;t</source>
-        <translation>Kni&amp;ppen</translation>
+        <translation>ამ&amp;ოჭრა</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="481"/>
@@ -992,7 +993,7 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../main-win.ui" line="490"/>
         <source>&amp;Copy</source>
-        <translation>&amp;Kopiëren</translation>
+        <translation>&amp;კოპირება</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="493"/>
@@ -1002,7 +1003,7 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../main-win.ui" line="502"/>
         <source>&amp;Paste</source>
-        <translation>&amp;Plakken</translation>
+        <translation>&amp;ჩასმა</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="505"/>
@@ -1012,7 +1013,7 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../main-win.ui" line="514"/>
         <source>Select &amp;All</source>
-        <translation>&amp;Alles selecteren</translation>
+        <translation>ყველაფრის &amp;მონიშვნა</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="517"/>
@@ -1022,7 +1023,7 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../main-win.ui" line="522"/>
         <source>De&amp;select All</source>
-        <translation>Niets &amp;selecteren</translation>
+        <translation>მონიშვნი&amp;ს მოხსნა ყველაფერზე</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="525"/>
@@ -1032,62 +1033,62 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../main-win.ui" line="530"/>
         <source>Pr&amp;eferences</source>
-        <translation>Inst&amp;ellingen</translation>
+        <translation>&amp;მორგება</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="538"/>
         <source>&amp;Ascending</source>
-        <translation>&amp;Oplopend</translation>
+        <translation>&amp;აღმავალი</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="550"/>
         <source>&amp;Descending</source>
-        <translation>&amp;Aflopend</translation>
+        <translation>&amp;დაღმავალი</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="562"/>
         <source>&amp;By File Name</source>
-        <translation>&amp;Bestandsnaam</translation>
+        <translation>&amp;ფაილის სახელით</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="570"/>
         <source>By &amp;Modification Time</source>
-        <translation>&amp;Wijzigingstijdstip</translation>
+        <translation>&amp;ცვლილების დროით</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="578"/>
         <source>By C&amp;reation Time</source>
-        <translation>Aan&amp;maakdatum</translation>
+        <translation>შექმნის დ&amp;როით</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="586"/>
         <source>By Deletio&amp;n Time</source>
-        <translation>Op verwijd&amp;ertijdstip</translation>
+        <translation>&amp;წაშლის დროით</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="594"/>
         <source>By File &amp;Type</source>
-        <translation>Bestands&amp;type</translation>
+        <translation>ფაილის &amp;ტიპით</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="602"/>
         <source>By &amp;Owner</source>
-        <translation>&amp;Op eigenaar</translation>
+        <translation>მფლ&amp;ოფელით</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="610"/>
         <source>By &amp;Group</source>
-        <translation>Op &amp;groep</translation>
+        <translation>ჯ&amp;გუფით</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="618"/>
         <source>&amp;Folder First</source>
-        <translation>&amp;Mappen bovenaan</translation>
+        <translation>ჯერ სა&amp;ქაღალდეები</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="626"/>
         <source>&amp;Hidden Last</source>
-        <translation>Verbor&amp;gen onderaan</translation>
+        <translation>დამალულები &amp;ბოლოში</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="939"/>
@@ -1097,22 +1098,22 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../main-win.ui" line="1027"/>
         <source>Preserve Settings Recursively from &amp;Here</source>
-        <translation>Instellingen recursief behouden vanaf &amp;hier</translation>
+        <translation>პარამეტრების რეკურსიულად შენარჩუნება &amp;აქედან</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="1032"/>
         <source>&amp;Go to Source of Inherited Settings</source>
-        <translation>&amp;Ga naar bron van overgenomen instellingen</translation>
+        <translation>მემკვიდრეობით მიღებული პარამეტრების &amp;წყაროზე გადასვლა</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="1037"/>
         <source>&amp;Remove Settings of Nonexistent Folders</source>
-        <translation>Instellingen van niet-bestaande mappen ve&amp;rwijderen</translation>
+        <translation>არარსებული საქაღალდეების პარამეტრების &amp;წაშლა</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="1045"/>
         <source>&amp;Clear</source>
-        <translation>&amp;Wissen</translation>
+        <translation>&amp;გასუფთავება</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="679"/>
@@ -1122,17 +1123,17 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../main-win.ui" line="740"/>
         <source>&amp;Case Sensitive</source>
-        <translation>&amp;Hoofdlettergevoelig</translation>
+        <translation>რეგისტრ&amp;ზე დამოკიდებული</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="748"/>
         <source>By File &amp;Size</source>
-        <translation>Bestand&amp;sgrootte</translation>
+        <translation>ფაილი&amp;ს ზომით</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="757"/>
         <source>&amp;Close Window</source>
-        <translation>&amp;Venster sluiten</translation>
+        <translation>&amp;ფანრჯის დახურვა</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="760"/>
@@ -1142,32 +1143,32 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../main-win.ui" line="782"/>
         <source>Open Tab in &amp;Root Instance</source>
-        <translation>Tabblad openen in behee&amp;rdersmodus</translation>
+        <translation>ჩანართის გახსნა &amp;ძირითად გაშვებულ ასლში</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="796"/>
         <source>&amp;Folder</source>
-        <translation>&amp;Map</translation>
+        <translation>&amp;საქაღალდე</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="808"/>
         <source>&amp;Blank File</source>
-        <translation>&amp;Leeg bestand</translation>
+        <translation>&amp;ცარიელი ფაილი</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="899"/>
         <source>Preserve Settings for &amp;This Folder</source>
-        <translation>Ins&amp;tellingen van deze map bewaren</translation>
+        <translation>პარამეტრების შენარჩუნება &amp;ამ საქაღალდისთვის</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="944"/>
         <source>&amp;Show/Focus Filter Bar</source>
-        <translation>Filterbalk tonen/focu&amp;ssen</translation>
+        <translation>ფილტრის პანელის ჩვენება/ფოკუ&amp;სი</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="947"/>
         <source>Show Filter Bar</source>
-        <translation>Filterbalk tonen</translation>
+        <translation>ფილტრის ზოლის ჩვენება</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="950"/>
@@ -1177,12 +1178,12 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../main-win.ui" line="958"/>
         <source>S&amp;plit View</source>
-        <translation>Weergave s&amp;plitsen</translation>
+        <translation>გა&amp;ყოფილი ხედი</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="961"/>
         <source>Split View</source>
-        <translation>Weergave splitsen</translation>
+        <translation>ხედის გაყოფა</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="964"/>
@@ -1192,7 +1193,7 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../main-win.ui" line="969"/>
         <source>&amp;Copy Full Path</source>
-        <translation>Volledige lo&amp;catie kopiëren</translation>
+        <translation>სრული ბილიკის &amp;კოპირება</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="976"/>
@@ -1202,17 +1203,17 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../main-win.ui" line="987"/>
         <source>Show Thumb&amp;nails</source>
-        <translation>Miniature&amp;n tonen</translation>
+        <translation>მი&amp;ნიატურების ჩვენება</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="990"/>
         <source>Show Thumbnails</source>
-        <translation>Miniaturen tonen</translation>
+        <translation>მინიატურების ჩვენება</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="998"/>
         <source>S&amp;ide Pane</source>
-        <translation>Z&amp;ijpaneel</translation>
+        <translation>გვერდ&amp;ითი პანელი</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="1001"/>
@@ -1222,18 +1223,18 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../main-win.ui" line="1006"/>
         <source>Hidden &amp;Shortcuts</source>
-        <translation>Verborgen &amp;sneltoetsen</translation>
+        <translation>დამალული მალ&amp;სახმობები</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="1011"/>
         <source>Open Tab in &amp;Admin Mode</source>
-        <translation>T&amp;abblad openen in beheerdersmodus</translation>
+        <translation>ჩანართის გახსნა &amp;ადმინისტრატორის რეჟიმში</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="1016"/>
         <location filename="../main-win.ui" line="1019"/>
         <source>Create Launcher</source>
-        <translation>Starter aanmaken</translation>
+        <translation>გამშვების შექმნა</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="834"/>
@@ -1243,7 +1244,7 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../main-win.ui" line="839"/>
         <source>&amp;Clear All Filters</source>
-        <translation>Alle filter&amp;s wissen</translation>
+        <translation>&amp;ყველა ფილტრის გასუფთავება</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="842"/>
@@ -1253,57 +1254,57 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../main-win.ui" line="851"/>
         <source>Close &amp;previous tabs</source>
-        <translation>Vorige tab&amp;bladen sluiten</translation>
+        <translation>წინა ჩანართების და&amp;ხურვა</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="860"/>
         <source>Close &amp;next tabs</source>
-        <translation>Volge&amp;nde tabbladen sluiten</translation>
+        <translation>შემდეგი ჩა&amp;ნართების დახურვა</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="908"/>
         <source>Connect to &amp;Server</source>
-        <translation>Verbinden met &amp;server</translation>
+        <translation>მიერთება &amp;სერვერთან</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="916"/>
         <source>&amp;Location</source>
-        <translation>&amp;Locatie</translation>
+        <translation>&amp;მდებარეობა</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="924"/>
         <source>&amp;Path Buttons</source>
-        <translation>&amp;Locatieknoppen</translation>
+        <translation>&amp;ბილიკის ღილაკები</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="929"/>
         <source>&amp;Bulk Rename</source>
-        <translation>Meerdere na&amp;men wijzigen</translation>
+        <translation>ერთ&amp;ზე მეტი ფაილის სახელის გადარქმევა</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="936"/>
         <source>Bulk Rename</source>
-        <translation>Meerdere namen wijzigen</translation>
+        <translation>ერთზე მეტი ფაილის სახელის გადარქმევა</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="865"/>
         <source>Close &amp;other tabs</source>
-        <translation>&amp;Overige tabbladen sluiten</translation>
+        <translation>სხვა ჩანართების დახურვ&amp;ა</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="831"/>
         <source>Permanent &amp;filter bar</source>
-        <translation>&amp;Filterbalk altijd tonen</translation>
+        <translation>მუდმივი &amp;ფილტრის პანელი</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="873"/>
         <source>&amp;Menu bar</source>
-        <translation>&amp;Menubalk</translation>
+        <translation>&amp;მენიუს ზოლი</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="876"/>
         <source>Menu bar</source>
-        <translation>Menubalk</translation>
+        <translation>მენიუს ზოლი</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="879"/>
@@ -1314,22 +1315,22 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
         <location filename="../main-win.ui" line="888"/>
         <location filename="../main-win.ui" line="891"/>
         <source>Menu</source>
-        <translation>Menu</translation>
+        <translation>მენიუ</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="635"/>
         <source>New &amp;Tab</source>
-        <translation>Nieuw &amp;tabblad</translation>
+        <translation>&amp;ახალი ჩანართი</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="164"/>
         <source>&amp;Customized View Settings</source>
-        <translation>Aangepaste &amp;weergave-instellingen</translation>
+        <translation>&amp;მორგებული ხედის პარამეტრები</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="638"/>
         <source>New Tab</source>
-        <translation>Nieuw tabblad</translation>
+        <translation>ახალი ჩანართი</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="641"/>
@@ -1339,52 +1340,52 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../main-win.ui" line="650"/>
         <source>Go &amp;Back</source>
-        <translation>&amp;Ga terug</translation>
+        <translation>უკან &amp;დაბრუნება</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="653"/>
         <source>Go Back</source>
-        <translation>Ga terug</translation>
+        <translation>უკან დაბრუნება</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="656"/>
         <source>Alt+Left</source>
-        <translation>Alt+Pijl links</translation>
+        <translation>Alt+Left</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="665"/>
         <source>Go &amp;Forward</source>
-        <translation>Ga &amp;vooruit</translation>
+        <translation>&amp;წინ გადასვლა</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="668"/>
         <source>Go Forward</source>
-        <translation>Ga vooruit</translation>
+        <translation>წინ გადასვლა</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="671"/>
         <source>Alt+Right</source>
-        <translation>Alt+Pijl rechts</translation>
+        <translation>Alt+Right</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="676"/>
         <source>&amp;Invert Selection</source>
-        <translation>Select&amp;ie omdraaien</translation>
+        <translation>მონიშვნის &amp;ინვერსია</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="688"/>
         <source>&amp;Delete</source>
-        <translation>Verwij&amp;deren</translation>
+        <translation>&amp;წაშლა</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="691"/>
         <source>Del</source>
-        <translation></translation>
+        <translation>Del</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="696"/>
         <source>&amp;Rename</source>
-        <translation>Naam wij&amp;zigen</translation>
+        <translation>&amp;სახელის გადარქმევა</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="703"/>
@@ -1394,7 +1395,7 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../main-win.ui" line="712"/>
         <source>C&amp;lose Tab</source>
-        <translation>Tabblad s&amp;luiten</translation>
+        <translation>ჩა&amp;ნართის დახურვა</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="715"/>
@@ -1404,27 +1405,27 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../main-win.ui" line="724"/>
         <source>File &amp;Properties</source>
-        <translation>Bestandseigenscha&amp;ppen</translation>
+        <translation>&amp;ფაილის თვისებები</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="727"/>
         <source>Alt+Return</source>
-        <translation>Alt+Enter</translation>
+        <translation>Alt+Return</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="732"/>
         <source>&amp;Folder Properties</source>
-        <translation>&amp;Mapeigenschappen</translation>
+        <translation>&amp;საქაღალდის თვისებები</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="765"/>
         <source>Edit Bookmarks</source>
-        <translation>Bladwijzers aanpassen</translation>
+        <translation>სანიშნების ჩასწორება</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="774"/>
         <source>Open &amp;Terminal</source>
-        <translation>&amp;Terminalvenster openen</translation>
+        <translation>&amp;ტერმინალის გახსნა</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="777"/>
@@ -1434,7 +1435,7 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../main-win.ui" line="787"/>
         <source>&amp;Edit Bookmarks</source>
-        <translation>Bladwijzers aanpass&amp;en</translation>
+        <translation>&amp;სანიშნების ჩასწორება</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="799"/>
@@ -1449,7 +1450,7 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../main-win.ui" line="816"/>
         <source>&amp;Find Files</source>
-        <translation>&amp;Zoeken naar bestanden</translation>
+        <translation>&amp;ფაილების ძებნა</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="823"/>
@@ -1459,48 +1460,48 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../main-win.ui" line="70"/>
         <source>&amp;File</source>
-        <translation>&amp;Bestand</translation>
+        <translation>&amp;ფაილი</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="74"/>
         <source>C&amp;reate New</source>
-        <translation>&amp;Nieuw</translation>
+        <translation>ახლის შე&amp;ქმნა</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="102"/>
         <source>&amp;Help</source>
-        <translation>&amp;Hulp</translation>
+        <translation>&amp;დახმარება</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="109"/>
         <location filename="../main-win.ui" line="133"/>
         <source>&amp;View</source>
-        <translation>&amp;Beeld</translation>
+        <translation>&amp;ნახვა</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="113"/>
         <source>&amp;Sorting</source>
-        <translation>&amp;Sorteren</translation>
+        <translation>&amp;დალაგება</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="189"/>
         <source>&amp;Edit</source>
-        <translation>B&amp;ewerken</translation>
+        <translation>&amp;ჩასწორება</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="208"/>
         <source>&amp;Bookmarks</source>
-        <translation>&amp;Bladwijzers</translation>
+        <translation>&amp;სანიშნები</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="215"/>
         <source>&amp;Go</source>
-        <translation>&amp;Ga</translation>
+        <translation>&amp;წავიდა</translation>
     </message>
     <message>
         <location filename="../main-win.ui" line="257"/>
         <source>Main Toolbar</source>
-        <translation>Hoofdwerkbalk</translation>
+        <translation>ხელსაწყოთა მთავარი ზოლი</translation>
     </message>
 </context>
 <context>
@@ -1508,99 +1509,99 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../application.cpp" line="189"/>
         <source>Name of configuration profile</source>
-        <translation>Naam van instellingenprofiel</translation>
+        <translation>კონფიგურაციის პროფილის სახელი</translation>
     </message>
     <message>
         <location filename="../application.cpp" line="189"/>
         <source>PROFILE</source>
-        <translation>PROFIEL</translation>
+        <translation>პროფილი</translation>
     </message>
     <message>
         <location filename="../application.cpp" line="192"/>
         <source>Run PCManFM-Qt as a daemon</source>
-        <translation>PCManFM-Qt uitvoeren als achtergronddienst</translation>
+        <translation>PCManFR-Qt-ის დემონად გაშვება</translation>
     </message>
     <message>
         <location filename="../application.cpp" line="195"/>
         <source>Quit PCManFM-Qt</source>
-        <translation>PCManFM-Qt afsluiten</translation>
+        <translation>გასვლა PCManFM-Qt-დან</translation>
     </message>
     <message>
         <location filename="../application.cpp" line="198"/>
         <source>Launch desktop manager</source>
-        <translation>Bureaubladbeheer openen</translation>
+        <translation>სამუშაო მაგიდის მმართველის გაშვება</translation>
     </message>
     <message>
         <location filename="../application.cpp" line="201"/>
         <source>Turn off desktop manager if it&apos;s running</source>
-        <translation>Bureaubladbeheer uitschakelen indien actief</translation>
+        <translation>სამუშაო მაგიდის მმართველის გამორთვა, თუ ის გაშვებულია</translation>
     </message>
     <message>
         <location filename="../application.cpp" line="204"/>
         <source>Open desktop preference dialog on the page with the specified name</source>
-        <translation>Bureaubladinstellingen tonen op de pagina met de opgegeven naam</translation>
+        <translation>სამუშაო მაგიდის მორგების დიალოგის გახსნა მითითებული სახელის მქონე გვერდზე</translation>
     </message>
     <message>
         <location filename="../application.cpp" line="204"/>
         <location filename="../application.cpp" line="219"/>
         <source>NAME</source>
-        <translation>NAAM</translation>
+        <translation>სახელი</translation>
     </message>
     <message>
         <location filename="../application.cpp" line="207"/>
         <source>Open new window</source>
-        <translation>Nieuw venster openen</translation>
+        <translation>ახალ ფანჯრის გახსნა</translation>
     </message>
     <message>
         <location filename="../application.cpp" line="210"/>
         <source>Open Find Files utility</source>
-        <translation>Bestandszoeker openen</translation>
+        <translation>ფაილების ძებნის პროგრამის გახსნა</translation>
     </message>
     <message>
         <location filename="../application.cpp" line="213"/>
         <source>Set desktop wallpaper from image FILE</source>
-        <translation>AfbeeldingsBESTAND instellen als bureaubladachtergrond</translation>
+        <translation>სამუშაო მაგიდის ფონის სურათის დაყენება მითითებული ფაილიდან</translation>
     </message>
     <message>
         <location filename="../application.cpp" line="213"/>
         <source>FILE</source>
-        <translation>BESTAND</translation>
+        <translation>FILE</translation>
     </message>
     <message>
         <location filename="../application.cpp" line="216"/>
         <source>MODE</source>
-        <translation>MODUS</translation>
+        <translation>რეჟიმი</translation>
     </message>
     <message>
         <location filename="../application.cpp" line="216"/>
         <source>Set mode of desktop wallpaper. MODE=(%1)</source>
-        <translation>Modus van bureaubladachtergrond instellen. MODUS=(%1)</translation>
+        <translation>სამუშაო მაგიდის ფონის რეჟიმის დაყენება. რეჟიმი=(%1)</translation>
     </message>
     <message>
         <location filename="../application.cpp" line="219"/>
         <source>Open Preferences dialog on the page with the specified name</source>
-        <translation>Instellingenvenster tonen op de pagina met de opgegeven naam</translation>
+        <translation>მორგების დიალოგის გახსნა მითითებული სახელის მქონე გვერდზე</translation>
     </message>
     <message>
         <location filename="../application.cpp" line="222"/>
         <source>Files or directories to open</source>
-        <translation>Te openen bestanden of mappen</translation>
+        <translation>გასახსნელი ფაილები ან საქაღალდეები</translation>
     </message>
     <message>
         <location filename="../application.cpp" line="222"/>
         <source>[FILE1, FILE2,...]</source>
-        <translation>[BESTAND1, BESTAND2, enz.]</translation>
+        <translation>[ფაილი1, ფაილი2,...]</translation>
     </message>
     <message>
         <location filename="../application.cpp" line="660"/>
         <location filename="../application.cpp" line="665"/>
         <source>Error</source>
-        <translation>Foutmelding</translation>
+        <translation>შეცდომა</translation>
     </message>
     <message>
         <location filename="../application.cpp" line="665"/>
         <source>Terminal emulator is not set.</source>
-        <translation>Er is geen terminalemulator ingesteld.</translation>
+        <translation>ტერმინალის ემულატორი დაყენებული არაა.</translation>
     </message>
 </context>
 <context>
@@ -1608,12 +1609,12 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../autorundialog.cpp" line="44"/>
         <source>Open in file manager</source>
-        <translation>Tonen in bestandsbeheerder</translation>
+        <translation>გახსნა ფაილების მმართველში</translation>
     </message>
     <message>
         <location filename="../autorundialog.cpp" line="137"/>
         <source>Removable Disk</source>
-        <translation>Verwijderbare schijf</translation>
+        <translation>მოხსნადი დისკი</translation>
     </message>
 </context>
 <context>
@@ -1621,12 +1622,12 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../connectserverdialog.cpp" line="9"/>
         <source>SSH</source>
-        <translation>Ssh</translation>
+        <translation>SSH</translation>
     </message>
     <message>
         <location filename="../connectserverdialog.cpp" line="10"/>
         <source>FTP</source>
-        <translation>Ftp</translation>
+        <translation>FTP</translation>
     </message>
     <message>
         <location filename="../connectserverdialog.cpp" line="11"/>
@@ -1636,17 +1637,17 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../connectserverdialog.cpp" line="12"/>
         <source>Secure WebDav</source>
-        <translation>Beveiligde WebDav</translation>
+        <translation>დაცული WebDav</translation>
     </message>
     <message>
         <location filename="../connectserverdialog.cpp" line="13"/>
         <source>HTTP</source>
-        <translation>Http</translation>
+        <translation>HTTP</translation>
     </message>
     <message>
         <location filename="../connectserverdialog.cpp" line="14"/>
         <source>HTTPS</source>
-        <translation>Https</translation>
+        <translation>HTTPS</translation>
     </message>
 </context>
 <context>
@@ -1654,42 +1655,42 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../desktopentrydialog.cpp" line="35"/>
         <source>Command:</source>
-        <translation>Opdracht:</translation>
+        <translation>ბრძანება:</translation>
     </message>
     <message>
         <location filename="../desktopentrydialog.cpp" line="36"/>
         <source>The command to execute.</source>
-        <translation>De uit te voeren opdracht.</translation>
+        <translation>შესასრულებელი ბრძანება.</translation>
     </message>
     <message>
         <location filename="../desktopentrydialog.cpp" line="39"/>
         <source>URL:</source>
-        <translation>Url:</translation>
+        <translation>URL:</translation>
     </message>
     <message>
         <location filename="../desktopentrydialog.cpp" line="40"/>
         <source>The URL to access.</source>
-        <translation>De te openen url.</translation>
+        <translation>URL წვდომისთვის.</translation>
     </message>
     <message>
         <location filename="../desktopentrydialog.cpp" line="67"/>
         <source>Select an icon</source>
-        <translation>Kies een pictogram</translation>
+        <translation>აირჩიეთ ხატულა</translation>
     </message>
     <message>
         <location filename="../desktopentrydialog.cpp" line="69"/>
         <source>Images (*.png *.xpm *.svg *.svgz )</source>
-        <translation>Afbeeldingen (*.png *.xpm *.svg *.svgz )</translation>
+        <translation>გამოსახულებები (*.png *.xpm *.svg *.svgz )</translation>
     </message>
     <message>
         <location filename="../desktopentrydialog.cpp" line="91"/>
         <source>Select an executable file</source>
-        <translation>Kies een uitvoerbaar bestand</translation>
+        <translation>აირჩიეთ გამშვები ფაილი</translation>
     </message>
     <message>
         <location filename="../desktopentrydialog.cpp" line="99"/>
         <source>Select a file</source>
-        <translation>Kies een bestand</translation>
+        <translation>აირჩიეთ ფაილი</translation>
     </message>
 </context>
 <context>
@@ -1697,47 +1698,47 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../desktoppreferencesdialog.cpp" line="55"/>
         <source>Fill with background color only</source>
-        <translation>Alleen opvullen met achtergrondkleur</translation>
+        <translation>მხოლოდ ფონის ფერით შევსება</translation>
     </message>
     <message>
         <location filename="../desktoppreferencesdialog.cpp" line="56"/>
         <source>Stretch to fill the entire screen</source>
-        <translation>Uitrekken om het hele scherm te vullen</translation>
+        <translation>გაწელვა მთელი ეკრანის შესავსებად</translation>
     </message>
     <message>
         <location filename="../desktoppreferencesdialog.cpp" line="57"/>
         <source>Stretch to fit the screen</source>
-        <translation>Uitrekken om op het scherm te passen</translation>
+        <translation>გაწელვა ეკრანის შესავსებად</translation>
     </message>
     <message>
         <location filename="../desktoppreferencesdialog.cpp" line="58"/>
         <source>Center on the screen</source>
-        <translation>Centreren op het scherm</translation>
+        <translation>ეკრანის ცენტრზე</translation>
     </message>
     <message>
         <location filename="../desktoppreferencesdialog.cpp" line="59"/>
         <source>Tile the image to fill the entire screen</source>
-        <translation>Tegelen om het volledige scherm te vullen</translation>
+        <translation>გამოსახულების ფილებად დალაგება, სანამ ეკრანი სრულად არ შეივსება</translation>
     </message>
     <message>
         <location filename="../desktoppreferencesdialog.cpp" line="60"/>
         <source>Zoom the image to fill the entire screen</source>
-        <translation>Zoomen om het volledige scherm op te vullen</translation>
+        <translation>გამოსახულებსი გადიდება მთელი ეკრანის შესავსებად</translation>
     </message>
     <message>
         <location filename="../desktoppreferencesdialog.cpp" line="272"/>
         <source>Select Wallpaper</source>
-        <translation>Kies een achtergrond</translation>
+        <translation>აირჩიეთ ფონის სურათი</translation>
     </message>
     <message>
         <location filename="../desktoppreferencesdialog.cpp" line="276"/>
         <source>Image Files</source>
-        <translation>Afbeeldingsbestanden</translation>
+        <translation>ასლის ფაილები</translation>
     </message>
     <message>
         <location filename="../desktoppreferencesdialog.cpp" line="318"/>
         <source>Select Wallpaper Folder</source>
-        <translation>Kies een achtergrondenmap</translation>
+        <translation>აირჩიეთ ფონის სურათის საქაღალდე</translation>
     </message>
 </context>
 <context>
@@ -1745,61 +1746,61 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../desktopwindow.cpp" line="333"/>
         <source>Trash (One item)</source>
-        <translation>Prullenbak (één item)</translation>
+        <translation>ნაგავი (ერთი ელემენტი)</translation>
     </message>
     <message numerus="yes">
         <location filename="../desktopwindow.cpp" line="336"/>
         <source>Trash (%Ln items)</source>
         <translation>
-            <numerusform>Prullenbak (%Ln item)</numerusform>
-            <numerusform>Prullenbak (%Ln items)</numerusform>
+            <numerusform>ნაგავი (%Ln ელემენტი)</numerusform>
+            <numerusform>ნაგავი (%Ln ელემენტი)</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../desktopwindow.cpp" line="340"/>
         <source>Trash (Empty)</source>
-        <translation>Prullenbak (leeg)</translation>
+        <translation>ნაგვის ყუთი (ცარიელია)</translation>
     </message>
     <message>
         <location filename="../desktopwindow.cpp" line="375"/>
         <source>Computer</source>
-        <translation>Computer</translation>
+        <translation>კომპიუტერი</translation>
     </message>
     <message>
         <location filename="../desktopwindow.cpp" line="389"/>
         <source>Network</source>
-        <translation>Netwerk</translation>
+        <translation>ქსელი</translation>
     </message>
     <message>
         <location filename="../desktopwindow.cpp" line="1052"/>
         <source>Open</source>
-        <translation>Openen</translation>
+        <translation>გახსნა</translation>
     </message>
     <message>
         <location filename="../desktopwindow.cpp" line="1058"/>
         <location filename="../desktopwindow.cpp" line="1098"/>
         <source>Stic&amp;k to Current Position</source>
-        <translation>Op huidige positie &amp;blijven</translation>
+        <translation>დაწებება &amp;მიმდინარე მდებარეობაზე</translation>
     </message>
     <message>
         <location filename="../desktopwindow.cpp" line="1066"/>
         <source>Empty Trash</source>
-        <translation>Prullenbak legen</translation>
+        <translation>ნაგვის დაცარიელება</translation>
     </message>
     <message>
         <location filename="../desktopwindow.cpp" line="1132"/>
         <source>Hide Desktop Items</source>
-        <translation>Bureaubladitems verbergen</translation>
+        <translation>სამუშაო მაგიდის ელემენტების დამალვა</translation>
     </message>
     <message>
         <location filename="../desktopwindow.cpp" line="1138"/>
         <source>Create Launcher</source>
-        <translation>Starter aanmaken</translation>
+        <translation>გამშვების შექმნა</translation>
     </message>
     <message>
         <location filename="../desktopwindow.cpp" line="1141"/>
         <source>Desktop Preferences</source>
-        <translation>Bureaubladinstellingen</translation>
+        <translation>სამუშაო მაგიდის მორგება</translation>
     </message>
 </context>
 <context>
@@ -1807,7 +1808,7 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../tabpage.cpp" line="95"/>
         <source>Filter:</source>
-        <translation>Filter:</translation>
+        <translation>ფილტრი:</translation>
     </message>
 </context>
 <context>
@@ -1815,7 +1816,7 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../tabpage.cpp" line="65"/>
         <source>Clear text (Ctrl+K or Esc)</source>
-        <translation>Tekst wissen (Ctrl+K of Esc)</translation>
+        <translation>ეკრანის გასუფთავება (Ctrl+K ან Esc)</translation>
     </message>
 </context>
 <context>
@@ -1823,62 +1824,62 @@ zelfs als dat niet de standaard bestandsbeheerder is.</translation>
     <message>
         <location filename="../mainwindow.cpp" line="142"/>
         <source>Root Instance</source>
-        <translation>Beheerdersvenster</translation>
+        <translation>ძირითადი გაშვებული ასლი</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="776"/>
         <source>Hide menu bar</source>
-        <translation>Menubalk verbergen</translation>
+        <translation>მენიუს ზოლის დამალვა</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="777"/>
         <source>This will hide the menu bar completely, use Ctrl+M to show it again.</source>
-        <translation>Hierdoor wordt de menubalk volledig verborgen. Druk op Ctrl+M om de menubalk te tonen.</translation>
+        <translation>ეს მენიუს ზოლს სრულად დაფარავს. თავიდან საჩვენებლად გამოიყენეთ Ctrl+M.</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1224"/>
         <source>Version: %1</source>
-        <translation>Versie: %1</translation>
+        <translation>ვერსია: %1</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="175"/>
         <location filename="../mainwindow.cpp" line="2193"/>
         <source>&amp;Move to Trash</source>
-        <translation>Verplaatsen naar &amp;prullenbak</translation>
+        <translation>&amp;სანაგვე ყუთში გადატანა</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="175"/>
         <location filename="../mainwindow.cpp" line="2193"/>
         <source>&amp;Delete</source>
-        <translation>Verwij&amp;deren</translation>
+        <translation>&amp;წაშლა</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="2029"/>
         <source>Customized View Settings</source>
-        <translation>Aangepaste weergave-instellingen</translation>
+        <translation>ხედის მორგებული პარამეტრები</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="2300"/>
         <location filename="../mainwindow.cpp" line="2308"/>
         <source>Error</source>
-        <translation>Foutmelding</translation>
+        <translation>შეცდომა</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="2308"/>
         <source>Switch user command is not set.</source>
-        <translation>De opdracht omtrent gebruikerswissel is niet ingesteld.</translation>
+        <translation>მომხმარებლის გადართვის ბრძანება დაყენებული არაა.</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="2399"/>
         <source>Cleaning Folder Settings</source>
-        <translation>Opruiminstellingen</translation>
+        <translation>საქაღალდის პარამეტრების გაწმენდა</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="2400"/>
         <source>Do you want to remove settings of nonexistent folders?
 They might be useful if those folders are created again.</source>
-        <translation>Wilt u de instellingen van niet-bestaande mappen verwijderen?
-Ze kunnen van pas komen als u ze opnieuw aanmaakt.</translation>
+        <translation>გნებავთ წაშალოთ პარამეტრები არარსებული საქაღალდეებისთვის?
+ისინი, შეიძლება, გამოგადგეთ, თუ საქაღალდეებს თავიდან შექმნით.</translation>
     </message>
 </context>
 <context>
@@ -1886,32 +1887,32 @@ Ze kunnen van pas komen als u ze opnieuw aanmaakt.</translation>
     <message>
         <location filename="../preferencesdialog.cpp" line="215"/>
         <source>Icon View</source>
-        <translation>Pictogramweergave</translation>
+        <translation>ხატულის ხედი</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="216"/>
         <source>Compact View</source>
-        <translation>Compacte weergave</translation>
+        <translation>შემჭიდროებული ხედი</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="217"/>
         <source>Thumbnail View</source>
-        <translation>Miniatuurweergave</translation>
+        <translation>მინიატურის ხედი</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="218"/>
         <source>Detailed List View</source>
-        <translation>Uitgebreide lijstweergave</translation>
+        <translation>დეტალური სიის ხედი</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="311"/>
         <source>Remove if added by user</source>
-        <translation>Verwĳderen indien toegevoegd door gebruiker</translation>
+        <translation>წაშლა, თუ დამატებულია მომხმარებლის მიერ</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="335"/>
         <source>Open user-defined list</source>
-        <translation>Zelfgemaakte lĳst tonen</translation>
+        <translation>მომხმარებლის აღწერილი სიის გახსნა</translation>
     </message>
 </context>
 <context>
@@ -1919,57 +1920,57 @@ Ze kunnen van pas komen als u ze opnieuw aanmaakt.</translation>
     <message>
         <location filename="../tabpage.cpp" line="452"/>
         <source>Search Results</source>
-        <translation>Zoekresultaten</translation>
+        <translation>ძებნს შედეგები</translation>
     </message>
     <message>
         <location filename="../tabpage.cpp" line="455"/>
         <source>Applications</source>
-        <translation>Programma&apos;s</translation>
+        <translation>აპლიკაციები</translation>
     </message>
     <message>
         <location filename="../tabpage.cpp" line="459"/>
         <source>Computer</source>
-        <translation>Computer</translation>
+        <translation>კომპიუტერი</translation>
     </message>
     <message>
         <location filename="../tabpage.cpp" line="462"/>
         <source>Network</source>
-        <translation>Netwerk</translation>
+        <translation>ქსელი</translation>
     </message>
     <message>
         <location filename="../tabpage.cpp" line="465"/>
         <source>Trash</source>
-        <translation>Prullenbak</translation>
+        <translation>ნაგავი</translation>
     </message>
     <message>
         <location filename="../tabpage.cpp" line="471"/>
         <source>Desktop</source>
-        <translation>Bureaublad</translation>
+        <translation>სამაგიდო</translation>
     </message>
     <message>
         <location filename="../tabpage.cpp" line="562"/>
         <source>Error</source>
-        <translation>Foutmelding</translation>
+        <translation>შეცდომა</translation>
     </message>
     <message>
         <location filename="../tabpage.cpp" line="571"/>
         <source>Free space: %1 (Total: %2)</source>
-        <translation>Vrije ruimte: %1 (totaal&#xa0;: %2)</translation>
+        <translation>თავისუფალი ადგილი: %1 (სულ: %2)</translation>
     </message>
     <message numerus="yes">
         <location filename="../tabpage.cpp" line="588"/>
         <source>%n item(s)</source>
         <translation>
-            <numerusform>%n item</numerusform>
-            <numerusform>%n items</numerusform>
+            <numerusform>%n ელემენტი</numerusform>
+            <numerusform>%n ელემენტი</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../tabpage.cpp" line="590"/>
         <source> (%n hidden)</source>
         <translation>
-            <numerusform> (%n verborgen)</numerusform>
-            <numerusform> (%n verborgen)</numerusform>
+            <numerusform> (%n დამალული)</numerusform>
+            <numerusform> (%n დამალული)</numerusform>
         </translation>
     </message>
     <message>
@@ -1977,14 +1978,14 @@ Ze kunnen van pas komen als u ze opnieuw aanmaakt.</translation>
         <location filename="../tabpage.cpp" line="796"/>
         <location filename="../tabpage.cpp" line="810"/>
         <source>Link to</source>
-        <translation>Koppelen aan</translation>
+        <translation>ბმული</translation>
     </message>
     <message numerus="yes">
         <location filename="../tabpage.cpp" line="822"/>
         <source>%n item(s) selected</source>
         <translation>
-            <numerusform>%n item geselecteerd</numerusform>
-            <numerusform>%n items geselecteerd</numerusform>
+            <numerusform>მონიშნულია %n ელემენტი</numerusform>
+            <numerusform>მონიშნულია %n ელემენტი</numerusform>
         </translation>
     </message>
 </context>
@@ -1993,41 +1994,41 @@ Ze kunnen van pas komen als u ze opnieuw aanmaakt.</translation>
     <message>
         <location filename="../view.cpp" line="59"/>
         <source>Many files</source>
-        <translation>Veel bestanden</translation>
+        <translation>მეტისმეტად ბევრი ფაილი</translation>
     </message>
     <message numerus="yes">
         <location filename="../view.cpp" line="60"/>
         <source>Do you want to open these %1 files?</source>
         <translation>
-            <numerusform>Wilt u %1 bestand openen?</numerusform>
-            <numerusform>Wilt u %1 bestanden openen?</numerusform>
+            <numerusform>მართლა გნებავთ, გახსნათ ეს %1 ფაილი?</numerusform>
+            <numerusform>მართლა გნებავთ, გახსნათ ეს %1 ფაილი?</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../view.cpp" line="133"/>
         <source>Open in New T&amp;ab</source>
-        <translation>Openen op nieuw t&amp;abblad</translation>
+        <translation>გახსნა ახალ &amp;ჩანართში</translation>
     </message>
     <message>
         <location filename="../view.cpp" line="137"/>
         <source>Open in New Win&amp;dow</source>
-        <translation>Openen in nieuw &amp;venster</translation>
+        <translation>გახსნა &amp;ახალ ფანჯარაში</translation>
     </message>
     <message>
         <location filename="../view.cpp" line="145"/>
         <location filename="../view.cpp" line="174"/>
         <source>Open in Termina&amp;l</source>
-        <translation>Openen in termina&amp;lvenster</translation>
+        <translation>ტერმინა&amp;ლში გახსნა</translation>
     </message>
     <message>
         <location filename="../view.cpp" line="160"/>
         <source>Show in New T&amp;ab</source>
-        <translation>Openen op nieuw t&amp;abblad</translation>
+        <translation>ჩვენება &amp;ახალ ჩანართში</translation>
     </message>
     <message>
         <location filename="../view.cpp" line="164"/>
         <source>Show in New Win&amp;dow</source>
-        <translation>Openen in nieuw &amp;venster</translation>
+        <translation>ჩვენება ახალ &amp;ფანჯარაში</translation>
     </message>
 </context>
 <context>
@@ -2035,260 +2036,260 @@ Ze kunnen van pas komen als u ze opnieuw aanmaakt.</translation>
     <message>
         <location filename="../preferences.ui" line="14"/>
         <source>Preferences</source>
-        <translation>Instellingen</translation>
+        <translation>მორგება</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="45"/>
         <source>User Interface</source>
-        <translation>Vormgeving</translation>
+        <translation>სამომხმარებლო ინტერფეისი</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="35"/>
         <source>Behavior</source>
-        <translation>Gedrag</translation>
+        <translation>ქცევა</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="50"/>
         <location filename="../preferences.ui" line="642"/>
         <source>Thumbnail</source>
-        <translation>Miniatuur</translation>
+        <translation>მინიატურა</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="55"/>
         <source>Volume</source>
-        <translation>Schijf</translation>
+        <translation>მოცულობა</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="60"/>
         <source>Advanced</source>
-        <translation>Geavanceerd</translation>
+        <translation>დამატებით</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="222"/>
         <source>Select newly created files</source>
-        <translation>Onlangs aangemaakte bestanden selecteren</translation>
+        <translation>ახალი ფაილების მონიშვნა</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="296"/>
         <source>Icons</source>
-        <translation>Pictogrammen</translation>
+        <translation>ხატულები</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="328"/>
         <source>Size of big icons:</source>
-        <translation>Omvang van grote pictogrammen:</translation>
+        <translation>დიდი ხატულების ზომა:</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="345"/>
         <source>Size of small icons:</source>
-        <translation>Omvang van kleine pictogrammen:</translation>
+        <translation>პატარა ხატულების ზომა:</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="362"/>
         <source>Size of thumbnails:</source>
-        <translation>Omvang van miniaturen:</translation>
+        <translation>მინიატურების ზომა:</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="376"/>
         <source>Size of side pane icons:</source>
-        <translation>Omvang van zijbalkpictogrammen:</translation>
+        <translation>გვერდითი პანელის ხატულების ზომა:</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="308"/>
         <source>Icon theme:</source>
-        <translation>Pictogramthema:</translation>
+        <translation>ხატულას თემა:</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="546"/>
         <source>Window</source>
-        <translation>Venster</translation>
+        <translation>ფანჯარა</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="559"/>
         <source>Always show the tab bar</source>
-        <translation>Tabbladbalk altijd tonen</translation>
+        <translation>ჩანართების ზოლის ყოველთვის ჩვენება</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="566"/>
         <source>Show &apos;Close&apos; buttons on tabs	</source>
-        <translation>Sluitknoppen tonen op tabbladen	</translation>
+        <translation>ჩანართებზე &apos;დახურვის&apos; ღილაკის ჩვენება	</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="580"/>
         <source>Remember the size of the last closed window</source>
-        <translation>Afmetingen van laatst gesloten venster onthouden</translation>
+        <translation>ბოლოს დახურული ფანჯრის ზომების დამახსოვრება</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="587"/>
         <source>Default width of new windows:</source>
-        <translation>Standaardbreedte van nieuwe vensters:</translation>
+        <translation>ახალი ფანჯრების ნაგულისხმევი სიგანე:</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="601"/>
         <source>Default height of new windows:</source>
-        <translation>Standaardhoogte van nieuwe vensters:</translation>
+        <translation>ახალი ფანჯრების ნაგულისხმევი სიმაღლე:</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="81"/>
         <source>Browsing</source>
-        <translation>Verkennen</translation>
+        <translation>არჩევა</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="93"/>
         <source>Open files with single click</source>
-        <translation>Bestanden openen door eenmaal te klikken</translation>
+        <translation>ფაილების გახსნა ერთი წკაპით</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="162"/>
         <source>Default view mode:</source>
-        <translation>Standaard weergavemodus:</translation>
+        <translation>თვალიერების ნაგულისხმები რეჟიმი:</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="119"/>
         <source> sec</source>
-        <translation> sec</translation>
+        <translation> წმ</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="175"/>
         <source>File Operations</source>
-        <translation>Bestandsacties</translation>
+        <translation>ფაილის ოპერაციები</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="181"/>
         <source>Confirm before deleting files</source>
-        <translation>Vragen alvorens bestanden te verwijderen</translation>
+        <translation>დადასტურება ფაილების წაშლამდე</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="188"/>
         <source>Move deleted files to &quot;trash bin&quot; instead of erasing from disk.</source>
-        <translation>Verwijderde bestanden verplaatsen naar prullenbak in plaats van permanent verwijderen</translation>
+        <translation>წაშლილი ფაილების &quot;ნაგვის ყუთში&quot; გადატანა მათი რეალური წაშლის მაგიერ.</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="651"/>
         <source>Show thumbnails of files</source>
-        <translation>Miniaturen van bestanden tonen</translation>
+        <translation>ფაილების მინიატურის ჩვენება</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="658"/>
         <source>Only show thumbnails for local files</source>
-        <translation>Alleen miniaturen van lokale bestanden tonen</translation>
+        <translation>მინიატურების, მხოლოდ, ლოკალური ფაილებისთვის ჩვენება</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="40"/>
         <source>Display</source>
-        <translation>Weergave</translation>
+        <translation>ჩვენება</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="90"/>
         <source>If this is unchecked, the DE setting will be used.</source>
-        <translation>Schakel uit om de werkomgevingsinstelling te gebruiken.</translation>
+        <translation>თუ ეს დასმული არაა, გამოყენებული იქნება DE პარამეტრი.</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="103"/>
         <location filename="../preferences.ui" line="116"/>
         <source>Set to zero to disable auto-selection.</source>
-        <translation>Stel in op 0 om automatische selectie uit te schakelen.</translation>
+        <translation>ნულზე დაყენება ავტომონიშვნას გამორთავს.</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="106"/>
         <source>Delay of auto-selection in single click mode:</source>
-        <translation>Wachttijd alvorens automatisch te selecteren bij eenmaal-klikkenmodus:</translation>
+        <translation>ავტომონიშვნის დაყოვნება ერთი წკაპის რეჟიმში:</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="144"/>
         <source>Open in current tab</source>
-        <translation>Openen op huidig tabblad</translation>
+        <translation>გახსნა მიმდინარე ჩანართში</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="149"/>
         <source>Open in new tab</source>
-        <translation>Openen op nieuw tabblad</translation>
+        <translation>ახალ ჩანართში გახსნა</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="154"/>
         <source>Open in new window</source>
-        <translation>Openen in nieuw venster</translation>
+        <translation>ახალ ფანჯარაში გახსნა</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="195"/>
         <source>Erase files on removable media instead of &quot;trash can&quot; creation</source>
-        <translation>Bestanden op verwijderbare media verwijderen in plaats van prullenbak aan te maken</translation>
+        <translation>მოხსნად მედიაზე ფაილების ნამდვილად წაშლა მათი &quot;ნაგვის ყუთში&quot; გადატანის მაგიერ</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="202"/>
         <source>Confirm before moving files into &quot;trash can&quot;</source>
-        <translation>Vragen om bevestiging alvorens bestanden te verplaatsen naar prullenbak</translation>
+        <translation>დადასტურება &quot;ნაგვის ყუთში&quot; გადატანამდე</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="209"/>
         <location filename="../preferences.ui" line="409"/>
         <location filename="../preferences.ui" line="419"/>
         <source>Requires application restart to take effect completely</source>
-        <translation>Herstart PCManFM-Qt om de wijziging toe te passen</translation>
+        <translation>ძალაში სრულად შესასვლელად აპლიკაციის გადატვირთვა სჭირდება</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="212"/>
         <source>Launch executable files without prompt</source>
-        <translation>Uitvoerbare bestanden starten zonder melding te tonen</translation>
+        <translation>გამშვები ფაილის შესრულება კითხვის გარეშე</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="219"/>
         <source>Renamed files will also be selected</source>
-        <translation>Bestanden met gewijzigde namen worden eveneens geselecteerd</translation>
+        <translation>ასევე მოინიშნება სახელგადარქმეული ფაილებიც</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="244"/>
         <source>Number of recent files:</source>
-        <translation>Aantal recente bestanden:</translation>
+        <translation>უკანასკნელი ფაილების რაოდენობა:</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="325"/>
         <location filename="../preferences.ui" line="335"/>
         <source>Used by Icon View</source>
-        <translation>Gebruikt door pictogramweergave</translation>
+        <translation>გამოყენება ხატულების ხედის მიერ</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="342"/>
         <location filename="../preferences.ui" line="352"/>
         <source>Used by Compact View and Detailed List View</source>
-        <translation>Gebruikt door compacte en uitgebreide lijstweergave</translation>
+        <translation>გამოიყენება კომპაქტური და დეტალური სიის ხედის მიერ</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="359"/>
         <location filename="../preferences.ui" line="369"/>
         <source>Used by Thumbnail View</source>
-        <translation>Gebruikt door miniatuurweergave</translation>
+        <translation>გამოიყენება მინიატურების ხედის მეირ</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="389"/>
         <source>User interface</source>
-        <translation>Vormgeving</translation>
+        <translation>მომხმარებლის ინტერფეისი</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="402"/>
         <source>Treat backup files as hidden</source>
-        <translation>Reservekopiebestanden verbergen</translation>
+        <translation>მარქაფის ფაილების დამალულად არქმა</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="422"/>
         <source>Show icons of hidden files shadowed</source>
-        <translation>Pictogrammen van verborgen bestanden voorzien van schaduw</translation>
+        <translation>დამალული ფაილების ხატულების დაჩრდილულად ჩვენება</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="459"/>
         <source>Minimum item margins in icon view:</source>
-        <translation>Minimale afstand tussen items in pictogramweergave:</translation>
+        <translation>მინიმალური ელემენტის საზღვრები ხატულების ხედში:</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="466"/>
         <source>3 px by default.</source>
-        <translation>Standaard: 3 px.</translation>
+        <translation>3 პიქსელი ნაგულისხმევად.</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="469"/>
         <location filename="../preferences.ui" line="493"/>
         <source> px</source>
-        <translation> px</translation>
+        <translation> პქს</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="482"/>
@@ -2299,30 +2300,30 @@ Ze kunnen van pas komen als u ze opnieuw aanmaakt.</translation>
         <location filename="../preferences.ui" line="489"/>
         <source>3 px by default.
 A space is also reserved for 3 lines of text.</source>
-        <translation>Standaard: 3 px.
-Er is ruimte gereserveerd voor 3 regels tekst.</translation>
+        <translation>3 პიქსელი ნაგულისხმევად.
+ასევე შემონახულია ადგილი 3 ხაზი ტექსტისთვის.</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="506"/>
         <source>Lock</source>
-        <translation>Vergrendelen</translation>
+        <translation>ჩაკეტვა</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="555"/>
         <source>When unchecked, the tab bar will be shown
 only if there are more than one tab.</source>
-        <translation>Schakel uit om de tabbladbalk alleen te tonen
-als er meer dan één tabblad is.</translation>
+        <translation>როცა გამორთულია, ჩანართების ველი, მხოლოდ,
+მაშინაა ნაჩვენები, როცა არსებობს ერთზე მეტი ჩანართი.</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="573"/>
         <source>Switch to newly opened tab</source>
-        <translation>Nieuw geopend tabblad focussen</translation>
+        <translation>გადართვა ახლად გახსნილ ჩანართზე</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="615"/>
         <source>Reopen last window tabs in a new window</source>
-        <translation>Tabbladen uit vorig venster heropenen in nieuw venster</translation>
+        <translation>ბოლოს გახსნილი ფანჯრის ჩანართების გახსნა ახალ ფანჯარაში</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="665"/>
@@ -2330,20 +2331,20 @@ als er meer dan één tabblad is.</translation>
         <source>The built-in thumbnailer makes thumbnails of images that are supported by Qt.
 
 Usually, most image types are supported. The default size limit is 4 MiB.</source>
-        <translation>De ingebouwde miniatuurmaker maakt miniaturen van door Qt ondersteunde afbeeldingen.
+        <translation>ჩაშენებული მინიატურების პროგრამა ქმნის მინიატურებს გამოსახულებებისთვის, რომლების მხარდაჭერაც Qt-ს აქვს.
 
-De meeste bestandstypes worden ondersteund, standaard met een max. bestandsgrootte van 4 MiB.</translation>
+ჩვეულებრივ, გამოსახულების ტიპების უმრავლესობა მხარდაჭერილია. ნაგულსიხმევი ზომის ზღვარია 4 მიბ.</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="670"/>
         <source>Image size limit for built-in thumbnailer:</source>
-        <translation>Groottebeperking van ingebouwde miniatuurmaker:</translation>
+        <translation>გამოსახულების ზომის ზღვარი ჩასენებული მემინიატურესთვის:</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="682"/>
         <location filename="../preferences.ui" line="718"/>
         <source> MiB</source>
-        <translation> MiB</translation>
+        <translation> მიბ</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="698"/>
@@ -2351,204 +2352,204 @@ De meeste bestandstypes worden ondersteund, standaard met een max. bestandsgroot
         <source>If existing, external thumbnailers are used for videos, PDF documents, etc.
 
 A value of -1 means that there is no limit for the file size (the default).</source>
-        <translation>Indien aanwezig worden externe miniatuurmakers gebruikt bij onder meer video- en pdf-bestanden.
+        <translation>თუ არსებობს, ვიდეოებისთვის, PDF დოკუმენტებისთვის და ა.შ. გარე მემინიატურე გამოიყენება.
 
-Een waarde van -1 betekent dat er geen beperking is (standaard).</translation>
+მნიშვნელობა -1 ნიშნავს, რომ ფაილის ზომას ზღვარი არ აქვს (ნაგულისხმევი).</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="703"/>
         <source>File size limit for external thumbnailers:</source>
-        <translation>Bestandsgroottebeperking van externe miniatuurmakers:</translation>
+        <translation>ფაილის ზომის ზღვარი გარე მემინიატურეებისთვის:</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="715"/>
         <source>No limit</source>
-        <translation>Onbeperkt</translation>
+        <translation>უსაზღვრო</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="833"/>
         <source>Terminal emulator</source>
-        <translation>Terminalprogramma</translation>
+        <translation>ტერმინალის ემულატორი</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="842"/>
         <source>Command:</source>
-        <translation>Opdracht:</translation>
+        <translation>ბრძანება:</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="849"/>
         <source>Example: qterminal
 It is the name of the executable file.</source>
-        <translation>Voorbeeld: qterminal
-Oftewel: de naam van een uitvoerbaar bestand.</translation>
+        <translation>მაგალითი: qterminal
+ეს გამშვები ფაილის სახელია.</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="860"/>
         <source>Execution option:</source>
-        <translation>Uitvoeropdracht:</translation>
+        <translation>გაშვების ვარიანტი:</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="867"/>
         <source>Example: -e
 It can be left empty if the terminal is already supported
 or does not have such an option; required otherwise.</source>
-        <translation>Voorbeeld: -e
-Laat leeg indien het terminalprogramma reeds wordt ondersteund
-of geen ondersteuning heeft voor deze optie. Bij twijfel wel toevoegen.</translation>
+        <translation>მაგალითი: -e
+შეგიძლიათ, დატოვოთ ცარიელი, თუ ტერმინალი უკვე მხარდაჭერილია,
+ან არ აქვს ასეთი პარამეტრი.</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="879"/>
         <source>Custom option(s):</source>
-        <translation>Aanvullende optie(s):</translation>
+        <translation>მორგებული პარამეტრები:</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="886"/>
         <source>This is optional, depends on the terminal,
 and can be any group of custom options.</source>
-        <translation>Dit is optioneel en kan per terminalprogramma verschillen.
-Iedere reeks acties is toegestaan.</translation>
+        <translation>ეს არასავალდებულია, დამოკიდებულია ტერმინალზე
+და შეიძლება, მორგებული პარამეტრების ნებისმიერი ჯგუფი იყოს.</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="964"/>
         <source>Search</source>
-        <translation>Zoeken</translation>
+        <translation>ძებნა</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="979"/>
         <source>Maximum search history:</source>
-        <translation>Maximaal aantal geschiedenisitems:</translation>
+        <translation>მაქსიმალური ძებნის ისტორია:</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="993"/>
         <source>Clear search history</source>
-        <translation>Zoekgeschiedenis wissen</translation>
+        <translation>ძებნის ისტორიის გასუფთავება</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="1028"/>
         <source>Application restart is needed for changes to take effect.</source>
-        <translation>Herstart PCManFM-Qt om de wijziging toe te passen.</translation>
+        <translation>ცვლილებების ძალაში შესასვლელად აპლიკაციის გადატვირთვაა საჭირო.</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="136"/>
         <source>Bookmarks menu:</source>
-        <translation>Bladwijzermenu:</translation>
+        <translation>სანიშნეების მენიუ:</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="129"/>
         <source>Show folder context menu with Ctrl + right click</source>
-        <translation>Rechtermuisknopmenu van mappen openen met Ctrl+rechtermuisklik</translation>
+        <translation>საქაღალდის კონტექსტური მენიუს ჩვენება ღილაკებით Ctrl+მარჯვენა წკაპი</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="229"/>
         <source>Open folders in new tabs as far as possible</source>
-        <translation>Mappen zo veel mogelijk op nieuwe tabbladen openen</translation>
+        <translation>საქაღალდეების გახსნა ახალ ჩანართებში რაც შეიძლება, შორს</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="232"/>
         <source>Single window mode</source>
-        <translation>Eénvenstermodus</translation>
+        <translation>ერთფანჯრიანი რეჟიმი</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="412"/>
         <source>Always show real file names</source>
-        <translation>Altijd daadwerkelijke bestandsnamen tonen</translation>
+        <translation>ყოველთვის ფაილის ნამდვილი სახელების ჩვენება</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="429"/>
         <source>Do not show file tooltips</source>
-        <translation>Geen hulpballonnen van bestanden tonen</translation>
+        <translation>ფაილის მინიშნებების არ-ჩვენება</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="436"/>
         <source>Disable smooth scrolling</source>
-        <translation>Vloeiend schuiven uitschakelen</translation>
+        <translation>გლუვი გადახვევის გამორთვა</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="648"/>
         <source>Needs ffmpegthumbnailer</source>
-        <translation>Hiervoor is ffmpegthumbnailer vereist</translation>
+        <translation>სჭირდება ffmpegthumbnailer</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="754"/>
         <source>Auto Mount</source>
-        <translation>Automatisch aankoppelen</translation>
+        <translation>ავტომატური მიმაგრება</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="760"/>
         <source>Mount mountable volumes automatically on program startup</source>
-        <translation>Aankoppelbare schijven automatisch aankoppelen na opstarten</translation>
+        <translation>მიმაგრებადი ტომების ავტომატური მიმაგრება პროგრამის გაშვებისას</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="767"/>
         <source>Mount removable media automatically when they are inserted</source>
-        <translation>Verwijderbare schijven automatisch aankoppelen zodra ze worden ingevoerd</translation>
+        <translation>მოხსნადი მედიის ავტომატური მიმაგრება მათი მიერთებისას</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="774"/>
         <source>Show available options for removable media when they are inserted</source>
-        <translation>Beschikbare opties omtrent verwijderbare schijven tonen zodra ze worden ingevoerd</translation>
+        <translation>ხელმისაწვდომი არჩევნების ჩვენება მოხსნადი მედიისთვის მათი მიერთებისას</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="784"/>
         <source>When removable medium unmounted:</source>
-        <translation>Na ontkoppelen van verwijderbare schijf:</translation>
+        <translation>როდის მოხდება მოხსნადი მედიის მოხსნა:</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="790"/>
         <source>Close &amp;tab containing removable medium</source>
-        <translation>&amp;Tabblad met verwijderbare schijf sluiten</translation>
+        <translation>მოხსნადი მედიის შემცველი ჩართის &amp;დახურვა</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="797"/>
         <source>Chan&amp;ge folder in the tab to home folder</source>
-        <translation>Persoonlijke map openen op huidi&amp;g tabblad</translation>
+        <translation>&amp;ჩანართში გახსნილი საქაღალდის საწყის საქაღალდეზე გადართვა</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="824"/>
         <source>Programs</source>
-        <translation>Programma&apos;s</translation>
+        <translation>პროგრამები</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="900"/>
         <source>Switch &amp;user command:</source>
-        <translation>Opdracht voor gebr&amp;uikerswissel:</translation>
+        <translation>მომხმარებლის ბრძანების &amp;გადართვა:</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="910"/>
         <source>Example:
 lxsudo dbus-run-session -- %s</source>
-        <translation>Voorbeeld:
-lxsudo dbus-run-session -- %s</translation>
+        <translation>მაგ:
+lxsudo dbus-run-session --%s</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="918"/>
         <source>Archiver in&amp;tegration:</source>
-        <translation>Archiveerin&amp;tegratie:</translation>
+        <translation>არქივატორის ინ&amp;ტეგრაცია:</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="934"/>
         <source>Templates</source>
-        <translation>Sjablonen</translation>
+        <translation>შაბლონები</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="940"/>
         <source>Show only user defined templates in menu</source>
-        <translation>Alleen eigen sjablonen tonen in menu</translation>
+        <translation>მენიუში, მხოლოდ, მომხმარებლის ნიმუშების ჩვენება</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="947"/>
         <source>Show only one template for each MIME type</source>
-        <translation>Slechts één sjabloon per bestandstype tonen</translation>
+        <translation>მხოლოდ ერთი ნიმუშის ჩვენება თითოეული MIME ტიპისთვის</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="954"/>
         <source>Run default application after creation from template</source>
-        <translation>Standaardprogramma openen na aanmaken van sjabloon</translation>
+        <translation>ნაგულისხმევი აპლიკაციის გაშვება ნიმუშიდან შექმნის შემდეგ</translation>
     </message>
     <message>
         <location filename="../preferences.ui" line="395"/>
         <source>Use SI decimal prefixes instead of IEC binary prefixes</source>
-        <translation>Decimale SI-voorvoegsels gebruiken in plaats van binaire IEC-voorvoegsels</translation>
+        <translation>სი ათობითი პრეფიქსების გამოყენება IEC ბინარული პრეფიქსების მაგიერ</translation>
     </message>
 </context>
 <context>
@@ -2558,28 +2559,28 @@ lxsudo dbus-run-session -- %s</translation>
         <location filename="../bulkrename.cpp" line="247"/>
         <location filename="../bulkrename.cpp" line="288"/>
         <source>Renaming files...</source>
-        <translation>Bezig met wijzigen van bestandsnamen…</translation>
+        <translation>ფაილები სახელის გადარქმევა...</translation>
     </message>
     <message>
         <location filename="../bulkrename.cpp" line="185"/>
         <location filename="../bulkrename.cpp" line="247"/>
         <location filename="../bulkrename.cpp" line="288"/>
         <source>Abort</source>
-        <translation>Afbreken</translation>
+        <translation>შეწყვეტა</translation>
     </message>
     <message>
         <location filename="../bulkrename.cpp" line="194"/>
         <location filename="../bulkrename.cpp" line="254"/>
         <location filename="../bulkrename.cpp" line="295"/>
         <source>Warning</source>
-        <translation>Waarschuwing</translation>
+        <translation>გაფრთხილება</translation>
     </message>
     <message>
         <location filename="../bulkrename.cpp" line="194"/>
         <location filename="../bulkrename.cpp" line="254"/>
         <location filename="../bulkrename.cpp" line="295"/>
         <source>Renaming is aborted.</source>
-        <translation>Naamswijziging afgebroken.</translation>
+        <translation>სახელის გადარქმევა გაუქმდა.</translation>
     </message>
     <message>
         <location filename="../bulkrename.cpp" line="220"/>
@@ -2592,36 +2593,36 @@ lxsudo dbus-run-session -- %s</translation>
         <location filename="../bulkrename.cpp" line="322"/>
         <location filename="../tabpage.cpp" line="1149"/>
         <source>Error</source>
-        <translation>Foutmelding</translation>
+        <translation>შეცდომა</translation>
     </message>
     <message>
         <location filename="../bulkrename.cpp" line="220"/>
         <location filename="../bulkrename.cpp" line="277"/>
         <location filename="../bulkrename.cpp" line="318"/>
         <source>No file could be renamed.</source>
-        <translation>Er kan geen enkele bestandsnaam worden gewijzigd.</translation>
+        <translation>სახელი ვერც ერთ ფაილს ვერ გადაერქვა.</translation>
     </message>
     <message>
         <location filename="../bulkrename.cpp" line="224"/>
         <location filename="../bulkrename.cpp" line="281"/>
         <location filename="../bulkrename.cpp" line="322"/>
         <source>Some files could not be renamed.</source>
-        <translation>Enkele bestandsnamen kunnen niet worden gewijzigd.</translation>
+        <translation>ზოგიერთი ფაილის სახელის გადარქმევა შეუძლებელია.</translation>
     </message>
     <message>
         <location filename="../bulkrename.cpp" line="234"/>
         <source>Nothing to find.</source>
-        <translation>Er zijn geen zoekresultaten.</translation>
+        <translation>საპოვნელი არაფერია.</translation>
     </message>
     <message>
         <location filename="../bulkrename.cpp" line="243"/>
         <source>Invalid regular expression.</source>
-        <translation>Ongeldige reguliere uitdrukking.</translation>
+        <translation>არასწორი რეგულარული გამოსახულება.</translation>
     </message>
     <message>
         <location filename="../tabpage.cpp" line="1149"/>
         <source>Cannot open as Admin.</source>
-        <translation>Openen als beheerder mislukt.</translation>
+        <translation>ადმინისტრატორის სახელით გახსნა შეუძლებელია.</translation>
     </message>
 </context>
 </TS>

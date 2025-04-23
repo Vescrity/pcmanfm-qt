@@ -121,27 +121,67 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.<
         <translation>Renommer en masse</translation>
     </message>
     <message>
-        <location filename="../bulk-rename.ui" line="47"/>
+        <location filename="../bulk-rename.ui" line="12"/>
+        <source>Serial Renaming</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../bulk-rename.ui" line="36"/>
         <source># will be replaced by numbers starting with:</source>
         <translation># sera remplacé par un numéro commençant par :</translation>
     </message>
     <message>
-        <location filename="../bulk-rename.ui" line="80"/>
+        <location filename="../bulk-rename.ui" line="68"/>
         <source>Pad numbers with zero if possible</source>
         <translation>Si possible, remplir les chiffres avec des zéros</translation>
     </message>
     <message>
-        <location filename="../bulk-rename.ui" line="87"/>
+        <location filename="../bulk-rename.ui" line="75"/>
         <source>Use localized numbers</source>
         <translation>Utiliser des numéros localisés</translation>
     </message>
     <message>
-        <location filename="../bulk-rename.ui" line="27"/>
-        <source>Rename selected files to:</source>
-        <translation>Renommer les fichiers sélectionnés en :</translation>
+        <location filename="../bulk-rename.ui" line="85"/>
+        <source>Replacement</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../bulk-rename.ui" line="40"/>
+        <location filename="../bulk-rename.ui" line="97"/>
+        <source>Find in names:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../bulk-rename.ui" line="107"/>
+        <source>Replace with:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../bulk-rename.ui" line="117"/>
+        <source>Case-sensitive</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../bulk-rename.ui" line="124"/>
+        <source>Regular expression</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../bulk-rename.ui" line="134"/>
+        <source>Change Case</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../bulk-rename.ui" line="146"/>
+        <source>To upper case</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../bulk-rename.ui" line="156"/>
+        <source>To lower case</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../bulk-rename.ui" line="27"/>
         <source>Name#</source>
         <translation>Nom#</translation>
     </message>
@@ -891,334 +931,354 @@ avec un clic gauche, même si aucun gestionnaire de fichiers n&apos;est défini 
         <translation>&amp;Applications</translation>
     </message>
     <message>
+        <location filename="../main-win.ui" line="436"/>
+        <source>Ctrl+Shift+1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../main-win.ui" line="447"/>
+        <source>Ctrl+Shift+3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../main-win.ui" line="458"/>
+        <source>Ctrl+Shift+4</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../main-win.ui" line="469"/>
+        <source>Ctrl+Shift+2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../main-win.ui" line="481"/>
         <source>Ctrl+X</source>
         <translation>Ctrl+X</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="478"/>
+        <location filename="../main-win.ui" line="490"/>
         <source>&amp;Copy</source>
         <translation>&amp;Copier</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="481"/>
+        <location filename="../main-win.ui" line="493"/>
         <source>Ctrl+C</source>
         <translation>Ctrl+C</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="490"/>
+        <location filename="../main-win.ui" line="502"/>
         <source>&amp;Paste</source>
         <translation>C&amp;oller</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="493"/>
+        <location filename="../main-win.ui" line="505"/>
         <source>Ctrl+V</source>
         <translation>Ctrl+V</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="502"/>
+        <location filename="../main-win.ui" line="514"/>
         <source>Select &amp;All</source>
         <translation>Tout sélect&amp;ionner</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="510"/>
+        <location filename="../main-win.ui" line="522"/>
         <source>De&amp;select All</source>
         <translation>Tout dé&amp;sélectionner</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="513"/>
+        <location filename="../main-win.ui" line="525"/>
         <source>Ctrl+D</source>
         <translation>Ctrl+D</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="518"/>
+        <location filename="../main-win.ui" line="530"/>
         <source>Pr&amp;eferences</source>
         <translation>Préfér&amp;ences</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="526"/>
+        <location filename="../main-win.ui" line="538"/>
         <source>&amp;Ascending</source>
         <translation>&amp;Croissant</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="538"/>
+        <location filename="../main-win.ui" line="550"/>
         <source>&amp;Descending</source>
         <translation>&amp;Décroissant</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="550"/>
+        <location filename="../main-win.ui" line="562"/>
         <source>&amp;By File Name</source>
         <translation>&amp;Par nom de fichier</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="558"/>
+        <location filename="../main-win.ui" line="570"/>
         <source>By &amp;Modification Time</source>
         <translation>Par date de &amp;modification</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="566"/>
+        <location filename="../main-win.ui" line="578"/>
         <source>By C&amp;reation Time</source>
         <translation>Par date de c&amp;réation</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="574"/>
+        <location filename="../main-win.ui" line="586"/>
         <source>By Deletio&amp;n Time</source>
         <translation>Par date de suppressio&amp;n</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="582"/>
+        <location filename="../main-win.ui" line="594"/>
         <source>By File &amp;Type</source>
         <translation>Par &amp;type de fichier</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="590"/>
+        <location filename="../main-win.ui" line="602"/>
         <source>By &amp;Owner</source>
         <translation>Par &amp;propriétaire</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="598"/>
+        <location filename="../main-win.ui" line="610"/>
         <source>By &amp;Group</source>
         <translation>Par &amp;groupe</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="606"/>
+        <location filename="../main-win.ui" line="618"/>
         <source>&amp;Folder First</source>
         <translation>&amp;Dossier d&apos;abord</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="614"/>
+        <location filename="../main-win.ui" line="626"/>
         <source>&amp;Hidden Last</source>
         <translation>&amp;Cachés en dernier</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="927"/>
+        <location filename="../main-win.ui" line="939"/>
         <source>Shift+F2</source>
         <translation>Maj+F2</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="1015"/>
+        <location filename="../main-win.ui" line="1027"/>
         <source>Preserve Settings Recursively from &amp;Here</source>
         <translation>Préserver les paramètres de manière récurrente à partir d&apos;&amp;Ici</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="1020"/>
+        <location filename="../main-win.ui" line="1032"/>
         <source>&amp;Go to Source of Inherited Settings</source>
         <translation>&amp;Aller à la source des paramètres hérités</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="1025"/>
+        <location filename="../main-win.ui" line="1037"/>
         <source>&amp;Remove Settings of Nonexistent Folders</source>
         <translation>&amp;Supprimer les paramètres des dossiers inexistants</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="1033"/>
+        <location filename="../main-win.ui" line="1045"/>
         <source>&amp;Clear</source>
         <translation>&amp;Effacer</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="664"/>
+        <location filename="../main-win.ui" line="676"/>
         <source>&amp;Invert Selection</source>
         <translation>&amp;Inverser la sélection</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="667"/>
+        <location filename="../main-win.ui" line="679"/>
         <source>Ctrl+Shift+A</source>
         <translation>Ctrl+Maj+A</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="676"/>
+        <location filename="../main-win.ui" line="688"/>
         <source>&amp;Delete</source>
         <translation>&amp;Supprimer</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="684"/>
+        <location filename="../main-win.ui" line="696"/>
         <source>&amp;Rename</source>
         <translation>&amp;Renommer</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="728"/>
+        <location filename="../main-win.ui" line="740"/>
         <source>&amp;Case Sensitive</source>
         <translation>Sensible à la &amp;casse</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="736"/>
+        <location filename="../main-win.ui" line="748"/>
         <source>By File &amp;Size</source>
         <translation>Par taille de &amp;fichier</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="745"/>
+        <location filename="../main-win.ui" line="757"/>
         <source>&amp;Close Window</source>
         <translation>&amp;Fermer la fenêtre</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="770"/>
+        <location filename="../main-win.ui" line="782"/>
         <source>Open Tab in &amp;Root Instance</source>
         <translation>Ouvrir l&apos;onglet en tant qu&apos;&amp;administrateur</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="887"/>
+        <location filename="../main-win.ui" line="899"/>
         <source>Preserve Settings for &amp;This Folder</source>
         <translation>Conserver les paramètres de ce &amp;dossier</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="932"/>
+        <location filename="../main-win.ui" line="944"/>
         <source>&amp;Show/Focus Filter Bar</source>
         <translation type="unfinished">&amp;Montrer/Focus sur la barre de filtre</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="935"/>
+        <location filename="../main-win.ui" line="947"/>
         <source>Show Filter Bar</source>
         <translation>Afficher la barre de filtre</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="938"/>
+        <location filename="../main-win.ui" line="950"/>
         <source>Ctrl+I</source>
         <translation>Ctrl+I</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="946"/>
+        <location filename="../main-win.ui" line="958"/>
         <source>S&amp;plit View</source>
         <translation type="unfinished">Vue &amp;partagée</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="949"/>
+        <location filename="../main-win.ui" line="961"/>
         <source>Split View</source>
         <translation type="unfinished">Vue partagée</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="952"/>
+        <location filename="../main-win.ui" line="964"/>
         <source>F6</source>
         <translation>F6</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="957"/>
+        <location filename="../main-win.ui" line="969"/>
         <source>&amp;Copy Full Path</source>
         <translation>&amp;Copier le chemin d&apos;accès complet</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="964"/>
+        <location filename="../main-win.ui" line="976"/>
         <source>Ctrl+Shift+C</source>
         <translation>Ctrl+Maj+C</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="975"/>
+        <location filename="../main-win.ui" line="987"/>
         <source>Show Thumb&amp;nails</source>
         <translation type="unfinished">Afficher les mi&amp;niatures</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="978"/>
+        <location filename="../main-win.ui" line="990"/>
         <source>Show Thumbnails</source>
         <translation type="unfinished">Afficher les miniatures</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="986"/>
+        <location filename="../main-win.ui" line="998"/>
         <source>S&amp;ide Pane</source>
         <translation>Panneau &amp;latéral</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="989"/>
+        <location filename="../main-win.ui" line="1001"/>
         <source>F9</source>
         <translation>F9</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="994"/>
+        <location filename="../main-win.ui" line="1006"/>
         <source>Hidden &amp;Shortcuts</source>
         <translation>Raccourci&amp;s cachés</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="999"/>
+        <location filename="../main-win.ui" line="1011"/>
         <source>Open Tab in &amp;Admin Mode</source>
         <translation>Ouvrir un onglet en mode &amp;administrateur</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="1004"/>
-        <location filename="../main-win.ui" line="1007"/>
+        <location filename="../main-win.ui" line="1016"/>
+        <location filename="../main-win.ui" line="1019"/>
         <source>Create Launcher</source>
         <translation>Créer un lanceur</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="822"/>
+        <location filename="../main-win.ui" line="834"/>
         <source>Ctrl+B</source>
         <translation>Ctrl+B</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="827"/>
+        <location filename="../main-win.ui" line="839"/>
         <source>&amp;Clear All Filters</source>
         <translation>&amp;Effacer tous les filtres</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="830"/>
+        <location filename="../main-win.ui" line="842"/>
         <source>Ctrl+Shift+K</source>
         <translation>Ctrl+Shift+K</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="839"/>
+        <location filename="../main-win.ui" line="851"/>
         <source>Close &amp;previous tabs</source>
         <translation>Fermer les onglets &amp;précédents</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="848"/>
+        <location filename="../main-win.ui" line="860"/>
         <source>Close &amp;next tabs</source>
         <translation>Fermer les onglets &amp;suivants</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="861"/>
+        <location filename="../main-win.ui" line="873"/>
         <source>&amp;Menu bar</source>
         <translation>Barre de &amp;menu</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="896"/>
+        <location filename="../main-win.ui" line="908"/>
         <source>Connect to &amp;Server</source>
         <translation>Connecter au &amp;serveur</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="904"/>
+        <location filename="../main-win.ui" line="916"/>
         <source>&amp;Location</source>
         <translation>&amp;Emplacement</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="912"/>
+        <location filename="../main-win.ui" line="924"/>
         <source>&amp;Path Buttons</source>
         <translation>Bo&amp;utons des chemins</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="917"/>
+        <location filename="../main-win.ui" line="929"/>
         <source>&amp;Bulk Rename</source>
         <translation>&amp;Renommer en masse</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="924"/>
+        <location filename="../main-win.ui" line="936"/>
         <source>Bulk Rename</source>
         <translation>Renommer en masse</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="853"/>
+        <location filename="../main-win.ui" line="865"/>
         <source>Close &amp;other tabs</source>
         <translation>Fermer les autres &amp;onglets</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="819"/>
+        <location filename="../main-win.ui" line="831"/>
         <source>Permanent &amp;filter bar</source>
         <translation>Barre de &amp;filtre permanente</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="864"/>
+        <location filename="../main-win.ui" line="876"/>
         <source>Menu bar</source>
         <translation>Barre de menu</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="867"/>
+        <location filename="../main-win.ui" line="879"/>
         <source>Ctrl+M</source>
         <translation>Ctrl+M</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="876"/>
-        <location filename="../main-win.ui" line="879"/>
+        <location filename="../main-win.ui" line="888"/>
+        <location filename="../main-win.ui" line="891"/>
         <source>Menu</source>
         <translation>Menu</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="505"/>
+        <location filename="../main-win.ui" line="517"/>
         <source>Ctrl+A</source>
         <translation>Ctrl+A</translation>
     </message>
@@ -1243,107 +1303,107 @@ avec un clic gauche, même si aucun gestionnaire de fichiers n&apos;est défini 
         <translation>Vue en &amp;icônes</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="441"/>
+        <location filename="../main-win.ui" line="444"/>
         <source>&amp;Compact View</source>
         <translation>Vue &amp;compacte</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="449"/>
+        <location filename="../main-win.ui" line="455"/>
         <source>&amp;Detailed List</source>
         <translation>Liste &amp;détaillée</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="457"/>
+        <location filename="../main-win.ui" line="466"/>
         <source>&amp;Thumbnail View</source>
         <translation>Vue en vigne&amp;ttes</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="466"/>
+        <location filename="../main-win.ui" line="478"/>
         <source>Cu&amp;t</source>
         <translation>Cou&amp;per</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="623"/>
+        <location filename="../main-win.ui" line="635"/>
         <source>New &amp;Tab</source>
         <translation>Nouvel ongle&amp;t</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="626"/>
+        <location filename="../main-win.ui" line="638"/>
         <source>New Tab</source>
         <translation>Nouvel onglet</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="629"/>
+        <location filename="../main-win.ui" line="641"/>
         <source>Ctrl+T</source>
         <translation>Ctrl+T</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="638"/>
+        <location filename="../main-win.ui" line="650"/>
         <source>Go &amp;Back</source>
         <translation>Reto&amp;ur</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="641"/>
+        <location filename="../main-win.ui" line="653"/>
         <source>Go Back</source>
         <translation>Retour</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="644"/>
+        <location filename="../main-win.ui" line="656"/>
         <source>Alt+Left</source>
         <translation>Alt+Gauche</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="653"/>
+        <location filename="../main-win.ui" line="665"/>
         <source>Go &amp;Forward</source>
         <translation>Ava&amp;ncer</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="656"/>
+        <location filename="../main-win.ui" line="668"/>
         <source>Go Forward</source>
         <translation>Avancer</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="659"/>
+        <location filename="../main-win.ui" line="671"/>
         <source>Alt+Right</source>
         <translation>Alt+Droite</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="679"/>
+        <location filename="../main-win.ui" line="691"/>
         <source>Del</source>
         <translation>Suppr</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="691"/>
+        <location filename="../main-win.ui" line="703"/>
         <source>F2</source>
         <translation>F2</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="700"/>
+        <location filename="../main-win.ui" line="712"/>
         <source>C&amp;lose Tab</source>
         <translation>Fermer &amp;l&apos;onglet</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="712"/>
+        <location filename="../main-win.ui" line="724"/>
         <source>File &amp;Properties</source>
         <translation>&amp;Propriétés du fichier</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="720"/>
+        <location filename="../main-win.ui" line="732"/>
         <source>&amp;Folder Properties</source>
         <translation>Propriétés du &amp;dossier</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="748"/>
+        <location filename="../main-win.ui" line="760"/>
         <source>Ctrl+Q</source>
         <translation>Ctrl+Q</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="787"/>
+        <location filename="../main-win.ui" line="799"/>
         <source>Ctrl+Shift+N</source>
         <translation>Ctrl+Maj+N</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="799"/>
+        <location filename="../main-win.ui" line="811"/>
         <source>Ctrl+Alt+N</source>
         <translation>Ctrl+Alt+N</translation>
     </message>
@@ -1363,52 +1423,52 @@ avec un clic gauche, même si aucun gestionnaire de fichiers n&apos;est défini 
         <translation>Barre d&apos;outils principale</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="703"/>
+        <location filename="../main-win.ui" line="715"/>
         <source>Ctrl+W</source>
         <translation>Ctrl+W</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="715"/>
+        <location filename="../main-win.ui" line="727"/>
         <source>Alt+Return</source>
         <translation>Alt+Retour</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="753"/>
+        <location filename="../main-win.ui" line="765"/>
         <source>Edit Bookmarks</source>
         <translation>Modifier les signets</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="762"/>
+        <location filename="../main-win.ui" line="774"/>
         <source>Open &amp;Terminal</source>
         <translation>Ouvrir le &amp;terminal</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="765"/>
+        <location filename="../main-win.ui" line="777"/>
         <source>F4</source>
         <translation>F4</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="775"/>
+        <location filename="../main-win.ui" line="787"/>
         <source>&amp;Edit Bookmarks</source>
         <translation>Modifi&amp;er les signets</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="784"/>
+        <location filename="../main-win.ui" line="796"/>
         <source>&amp;Folder</source>
         <translation>&amp;Dossier</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="796"/>
+        <location filename="../main-win.ui" line="808"/>
         <source>&amp;Blank File</source>
         <translation>&amp;Fichier vide</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="804"/>
+        <location filename="../main-win.ui" line="816"/>
         <source>&amp;Find Files</source>
         <translation>&amp;Trouver des fichiers</translation>
     </message>
     <message>
-        <location filename="../main-win.ui" line="811"/>
+        <location filename="../main-win.ui" line="823"/>
         <source>F3</source>
         <translation>F3</translation>
     </message>
@@ -1447,99 +1507,99 @@ avec un clic gauche, même si aucun gestionnaire de fichiers n&apos;est défini 
 <context>
     <name>PCManFM::Application</name>
     <message>
-        <location filename="../application.cpp" line="187"/>
+        <location filename="../application.cpp" line="189"/>
         <source>Name of configuration profile</source>
         <translation>Nom du profil de configuration</translation>
     </message>
     <message>
-        <location filename="../application.cpp" line="187"/>
+        <location filename="../application.cpp" line="189"/>
         <source>PROFILE</source>
         <translation>PROFIL</translation>
     </message>
     <message>
-        <location filename="../application.cpp" line="196"/>
+        <location filename="../application.cpp" line="198"/>
         <source>Launch desktop manager</source>
         <translation>Lancer le gestionnaire de bureau</translation>
     </message>
     <message>
-        <location filename="../application.cpp" line="199"/>
+        <location filename="../application.cpp" line="201"/>
         <source>Turn off desktop manager if it&apos;s running</source>
         <translation>Désactiver le gestionnaire de bureau s&apos;il est en cours d&apos;exécution</translation>
     </message>
     <message>
-        <location filename="../application.cpp" line="202"/>
+        <location filename="../application.cpp" line="204"/>
         <source>Open desktop preference dialog on the page with the specified name</source>
         <translation>Ouvrir la boîte de dialogue des préférences du bureau sur la page portant le nom spécifié</translation>
     </message>
     <message>
-        <location filename="../application.cpp" line="202"/>
-        <location filename="../application.cpp" line="217"/>
+        <location filename="../application.cpp" line="204"/>
+        <location filename="../application.cpp" line="219"/>
         <source>NAME</source>
         <translation>NOM</translation>
     </message>
     <message>
-        <location filename="../application.cpp" line="211"/>
+        <location filename="../application.cpp" line="213"/>
         <source>Set desktop wallpaper from image FILE</source>
         <translation>Définir le fond d&apos;écran à partir d&apos;un FICHIER image</translation>
     </message>
     <message>
-        <location filename="../application.cpp" line="211"/>
+        <location filename="../application.cpp" line="213"/>
         <source>FILE</source>
         <translation>FICHIER</translation>
     </message>
     <message>
-        <location filename="../application.cpp" line="214"/>
+        <location filename="../application.cpp" line="216"/>
         <source>MODE</source>
         <translation>MODE</translation>
     </message>
     <message>
-        <location filename="../application.cpp" line="217"/>
+        <location filename="../application.cpp" line="219"/>
         <source>Open Preferences dialog on the page with the specified name</source>
         <translation>Ouvrir la boîte de dialogue des préférences sur la page portant le nom spécifié</translation>
     </message>
     <message>
-        <location filename="../application.cpp" line="205"/>
+        <location filename="../application.cpp" line="207"/>
         <source>Open new window</source>
         <translation>Ouvrir une nouvelle fenêtre</translation>
     </message>
     <message>
-        <location filename="../application.cpp" line="190"/>
+        <location filename="../application.cpp" line="192"/>
         <source>Run PCManFM-Qt as a daemon</source>
         <translation>Exécutez PCManFM-Qt en tant que démon</translation>
     </message>
     <message>
-        <location filename="../application.cpp" line="193"/>
+        <location filename="../application.cpp" line="195"/>
         <source>Quit PCManFM-Qt</source>
         <translation>Quitter PCManFM-Qt</translation>
     </message>
     <message>
-        <location filename="../application.cpp" line="208"/>
+        <location filename="../application.cpp" line="210"/>
         <source>Open Find Files utility</source>
         <translation>Ouvrir l&apos;utilitaire de recherche de fichiers</translation>
     </message>
     <message>
-        <location filename="../application.cpp" line="214"/>
+        <location filename="../application.cpp" line="216"/>
         <source>Set mode of desktop wallpaper. MODE=(%1)</source>
         <translation>Définir le mode du papier-peint. MODE=(%1)</translation>
     </message>
     <message>
-        <location filename="../application.cpp" line="220"/>
+        <location filename="../application.cpp" line="222"/>
         <source>[FILE1, FILE2,...]</source>
         <translation>[FICHIER1, FICHIER2,...]</translation>
     </message>
     <message>
-        <location filename="../application.cpp" line="220"/>
+        <location filename="../application.cpp" line="222"/>
         <source>Files or directories to open</source>
         <translation>Fichiers ou dossiers à ouvrir</translation>
     </message>
     <message>
-        <location filename="../application.cpp" line="658"/>
-        <location filename="../application.cpp" line="663"/>
+        <location filename="../application.cpp" line="660"/>
+        <location filename="../application.cpp" line="665"/>
         <source>Error</source>
         <translation>Erreur</translation>
     </message>
     <message>
-        <location filename="../application.cpp" line="663"/>
+        <location filename="../application.cpp" line="665"/>
         <source>Terminal emulator is not set.</source>
         <translation>L&apos;émulateur de terminal n&apos;est pas défini.</translation>
     </message>
@@ -1636,47 +1696,47 @@ avec un clic gauche, même si aucun gestionnaire de fichiers n&apos;est défini 
 <context>
     <name>PCManFM::DesktopPreferencesDialog</name>
     <message>
-        <location filename="../desktoppreferencesdialog.cpp" line="52"/>
+        <location filename="../desktoppreferencesdialog.cpp" line="55"/>
         <source>Fill with background color only</source>
         <translation>Remplir seulement avec la couleur d&apos;arrière-plan</translation>
     </message>
     <message>
-        <location filename="../desktoppreferencesdialog.cpp" line="53"/>
+        <location filename="../desktoppreferencesdialog.cpp" line="56"/>
         <source>Stretch to fill the entire screen</source>
         <translation>Étirer pour remplir l&apos;écran entier</translation>
     </message>
     <message>
-        <location filename="../desktoppreferencesdialog.cpp" line="54"/>
+        <location filename="../desktoppreferencesdialog.cpp" line="57"/>
         <source>Stretch to fit the screen</source>
         <translation>Étirer pour remplir l&apos;écran</translation>
     </message>
     <message>
-        <location filename="../desktoppreferencesdialog.cpp" line="55"/>
+        <location filename="../desktoppreferencesdialog.cpp" line="58"/>
         <source>Center on the screen</source>
         <translation>Centrer sur l’écran</translation>
     </message>
     <message>
-        <location filename="../desktoppreferencesdialog.cpp" line="56"/>
+        <location filename="../desktoppreferencesdialog.cpp" line="59"/>
         <source>Tile the image to fill the entire screen</source>
         <translation>Faire une mosaïque avec l&apos;image pour remplir l&apos;écran en entier</translation>
     </message>
     <message>
-        <location filename="../desktoppreferencesdialog.cpp" line="57"/>
+        <location filename="../desktoppreferencesdialog.cpp" line="60"/>
         <source>Zoom the image to fill the entire screen</source>
         <translation>Zoomer l&apos;image pour remplir tout l&apos;écran</translation>
     </message>
     <message>
-        <location filename="../desktoppreferencesdialog.cpp" line="266"/>
+        <location filename="../desktoppreferencesdialog.cpp" line="272"/>
         <source>Select Wallpaper</source>
         <translation>Sélectionner un fond d&apos;écran</translation>
     </message>
     <message>
-        <location filename="../desktoppreferencesdialog.cpp" line="270"/>
+        <location filename="../desktoppreferencesdialog.cpp" line="276"/>
         <source>Image Files</source>
         <translation>Fichiers image</translation>
     </message>
     <message>
-        <location filename="../desktoppreferencesdialog.cpp" line="312"/>
+        <location filename="../desktoppreferencesdialog.cpp" line="318"/>
         <source>Select Wallpaper Folder</source>
         <translation>Sélectionnez le dossier de papier peint</translation>
     </message>
@@ -1684,12 +1744,12 @@ avec un clic gauche, même si aucun gestionnaire de fichiers n&apos;est défini 
 <context>
     <name>PCManFM::DesktopWindow</name>
     <message>
-        <location filename="../desktopwindow.cpp" line="328"/>
+        <location filename="../desktopwindow.cpp" line="333"/>
         <source>Trash (One item)</source>
         <translation>Corbeille (Un élément)</translation>
     </message>
     <message numerus="yes">
-        <location filename="../desktopwindow.cpp" line="331"/>
+        <location filename="../desktopwindow.cpp" line="336"/>
         <source>Trash (%Ln items)</source>
         <translation>
             <numerusform>Corbeille (%Ln élément)</numerusform>
@@ -1697,48 +1757,48 @@ avec un clic gauche, même si aucun gestionnaire de fichiers n&apos;est défini 
         </translation>
     </message>
     <message>
-        <location filename="../desktopwindow.cpp" line="335"/>
+        <location filename="../desktopwindow.cpp" line="340"/>
         <source>Trash (Empty)</source>
         <translation>Corbeille (Vide)</translation>
     </message>
     <message>
-        <location filename="../desktopwindow.cpp" line="370"/>
+        <location filename="../desktopwindow.cpp" line="375"/>
         <source>Computer</source>
         <translation>Ordinateur</translation>
     </message>
     <message>
-        <location filename="../desktopwindow.cpp" line="384"/>
+        <location filename="../desktopwindow.cpp" line="389"/>
         <source>Network</source>
         <translation>Réseau</translation>
     </message>
     <message>
-        <location filename="../desktopwindow.cpp" line="1047"/>
+        <location filename="../desktopwindow.cpp" line="1052"/>
         <source>Open</source>
         <translation>Ouvrir</translation>
     </message>
     <message>
-        <location filename="../desktopwindow.cpp" line="1053"/>
-        <location filename="../desktopwindow.cpp" line="1093"/>
+        <location filename="../desktopwindow.cpp" line="1058"/>
+        <location filename="../desktopwindow.cpp" line="1098"/>
         <source>Stic&amp;k to Current Position</source>
         <translation>Res&amp;ter à la position actuelle</translation>
     </message>
     <message>
-        <location filename="../desktopwindow.cpp" line="1061"/>
+        <location filename="../desktopwindow.cpp" line="1066"/>
         <source>Empty Trash</source>
         <translation>Vider la corbeille</translation>
     </message>
     <message>
-        <location filename="../desktopwindow.cpp" line="1127"/>
+        <location filename="../desktopwindow.cpp" line="1132"/>
         <source>Hide Desktop Items</source>
         <translation>Masquer les éléments du bureau</translation>
     </message>
     <message>
-        <location filename="../desktopwindow.cpp" line="1133"/>
+        <location filename="../desktopwindow.cpp" line="1138"/>
         <source>Create Launcher</source>
         <translation>Créer un lanceur</translation>
     </message>
     <message>
-        <location filename="../desktopwindow.cpp" line="1136"/>
+        <location filename="../desktopwindow.cpp" line="1141"/>
         <source>Desktop Preferences</source>
         <translation>Préférences du bureau</translation>
     </message>
@@ -1762,60 +1822,60 @@ avec un clic gauche, même si aucun gestionnaire de fichiers n&apos;est défini 
 <context>
     <name>PCManFM::MainWindow</name>
     <message>
-        <location filename="../mainwindow.cpp" line="143"/>
+        <location filename="../mainwindow.cpp" line="142"/>
         <source>Root Instance</source>
         <translation>Instance Root</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="786"/>
+        <location filename="../mainwindow.cpp" line="776"/>
         <source>Hide menu bar</source>
         <translation>Cacher la barre des menus</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="787"/>
+        <location filename="../mainwindow.cpp" line="777"/>
         <source>This will hide the menu bar completely, use Ctrl+M to show it again.</source>
         <translation>Cela masquera complètement la barre de menus, utiliser Ctrl+M pour l&apos;afficher à nouveau.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1234"/>
+        <location filename="../mainwindow.cpp" line="1224"/>
         <source>Version: %1</source>
         <translation>Version : %1</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="176"/>
-        <location filename="../mainwindow.cpp" line="2203"/>
+        <location filename="../mainwindow.cpp" line="175"/>
+        <location filename="../mainwindow.cpp" line="2193"/>
         <source>&amp;Move to Trash</source>
         <translation>&amp;Mettre à la corbeille</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="176"/>
-        <location filename="../mainwindow.cpp" line="2203"/>
+        <location filename="../mainwindow.cpp" line="175"/>
+        <location filename="../mainwindow.cpp" line="2193"/>
         <source>&amp;Delete</source>
         <translation>&amp;Supprimer</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="2039"/>
+        <location filename="../mainwindow.cpp" line="2029"/>
         <source>Customized View Settings</source>
         <translation>Paramètres d&apos;affichage personnalisé</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="2310"/>
-        <location filename="../mainwindow.cpp" line="2318"/>
+        <location filename="../mainwindow.cpp" line="2300"/>
+        <location filename="../mainwindow.cpp" line="2308"/>
         <source>Error</source>
         <translation>Erreur</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="2318"/>
+        <location filename="../mainwindow.cpp" line="2308"/>
         <source>Switch user command is not set.</source>
         <translation>La commande de changement d&apos;utilisateur n&apos;est pas définie.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="2409"/>
+        <location filename="../mainwindow.cpp" line="2399"/>
         <source>Cleaning Folder Settings</source>
         <translation>Nettoyage des paramètres du dossier</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="2410"/>
+        <location filename="../mainwindow.cpp" line="2400"/>
         <source>Do you want to remove settings of nonexistent folders?
 They might be useful if those folders are created again.</source>
         <translation>Voulez-vous supprimer les paramètres des dossiers inexistants&#xa0;?
@@ -1825,32 +1885,32 @@ Ils peuvent être utiles si ces dossiers sont à nouveau créés.</translation>
 <context>
     <name>PCManFM::PreferencesDialog</name>
     <message>
-        <location filename="../preferencesdialog.cpp" line="212"/>
+        <location filename="../preferencesdialog.cpp" line="215"/>
         <source>Icon View</source>
         <translation>Vue en icônes</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="213"/>
+        <location filename="../preferencesdialog.cpp" line="216"/>
         <source>Compact View</source>
         <translation>Vue compacte</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="214"/>
+        <location filename="../preferencesdialog.cpp" line="217"/>
         <source>Thumbnail View</source>
         <translation>Vue en vignettes</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="215"/>
+        <location filename="../preferencesdialog.cpp" line="218"/>
         <source>Detailed List View</source>
         <translation>Vue en liste détaillée</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="308"/>
+        <location filename="../preferencesdialog.cpp" line="311"/>
         <source>Remove if added by user</source>
         <translation>Supprimer si ajouté par l&apos;utilisateur</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="332"/>
+        <location filename="../preferencesdialog.cpp" line="335"/>
         <source>Open user-defined list</source>
         <translation>Ouvrir la liste définie par l&apos;utilisateur</translation>
     </message>
@@ -1858,47 +1918,47 @@ Ils peuvent être utiles si ces dossiers sont à nouveau créés.</translation>
 <context>
     <name>PCManFM::TabPage</name>
     <message>
-        <location filename="../tabpage.cpp" line="446"/>
+        <location filename="../tabpage.cpp" line="452"/>
         <source>Search Results</source>
         <translation>Résultats de la recherche</translation>
     </message>
     <message>
-        <location filename="../tabpage.cpp" line="449"/>
+        <location filename="../tabpage.cpp" line="455"/>
         <source>Applications</source>
         <translation>Applications</translation>
     </message>
     <message>
-        <location filename="../tabpage.cpp" line="453"/>
+        <location filename="../tabpage.cpp" line="459"/>
         <source>Computer</source>
         <translation>Ordinateur</translation>
     </message>
     <message>
-        <location filename="../tabpage.cpp" line="456"/>
+        <location filename="../tabpage.cpp" line="462"/>
         <source>Network</source>
         <translation>Réseau</translation>
     </message>
     <message>
-        <location filename="../tabpage.cpp" line="459"/>
+        <location filename="../tabpage.cpp" line="465"/>
         <source>Trash</source>
         <translation>Corbeille</translation>
     </message>
     <message>
-        <location filename="../tabpage.cpp" line="465"/>
+        <location filename="../tabpage.cpp" line="471"/>
         <source>Desktop</source>
         <translation>Bureau</translation>
     </message>
     <message>
-        <location filename="../tabpage.cpp" line="556"/>
+        <location filename="../tabpage.cpp" line="562"/>
         <source>Error</source>
         <translation>Erreur</translation>
     </message>
     <message>
-        <location filename="../tabpage.cpp" line="565"/>
+        <location filename="../tabpage.cpp" line="571"/>
         <source>Free space: %1 (Total: %2)</source>
         <translation>Espace libre : %1 (total&#xa0;: %2)</translation>
     </message>
     <message numerus="yes">
-        <location filename="../tabpage.cpp" line="582"/>
+        <location filename="../tabpage.cpp" line="588"/>
         <source>%n item(s)</source>
         <translation>
             <numerusform>%n élément</numerusform>
@@ -1906,7 +1966,7 @@ Ils peuvent être utiles si ces dossiers sont à nouveau créés.</translation>
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../tabpage.cpp" line="584"/>
+        <location filename="../tabpage.cpp" line="590"/>
         <source> (%n hidden)</source>
         <translation>
             <numerusform> (%n caché)</numerusform>
@@ -1914,14 +1974,14 @@ Ils peuvent être utiles si ces dossiers sont à nouveau créés.</translation>
         </translation>
     </message>
     <message>
-        <location filename="../tabpage.cpp" line="589"/>
-        <location filename="../tabpage.cpp" line="790"/>
-        <location filename="../tabpage.cpp" line="804"/>
+        <location filename="../tabpage.cpp" line="595"/>
+        <location filename="../tabpage.cpp" line="796"/>
+        <location filename="../tabpage.cpp" line="810"/>
         <source>Link to</source>
         <translation>Lien vers</translation>
     </message>
     <message numerus="yes">
-        <location filename="../tabpage.cpp" line="816"/>
+        <location filename="../tabpage.cpp" line="822"/>
         <source>%n item(s) selected</source>
         <translation>
             <numerusform>%n élément sélectionné</numerusform>
@@ -1945,20 +2005,30 @@ Ils peuvent être utiles si ces dossiers sont à nouveau créés.</translation>
         </translation>
     </message>
     <message>
-        <location filename="../view.cpp" line="122"/>
+        <location filename="../view.cpp" line="133"/>
         <source>Open in New T&amp;ab</source>
         <translation>Ouvrir dans un nouvel ongle&amp;t</translation>
     </message>
     <message>
-        <location filename="../view.cpp" line="126"/>
+        <location filename="../view.cpp" line="137"/>
         <source>Open in New Win&amp;dow</source>
         <translation>Ouvrir &amp;dans une nouvelle fenêtre</translation>
     </message>
     <message>
-        <location filename="../view.cpp" line="134"/>
-        <location filename="../view.cpp" line="152"/>
+        <location filename="../view.cpp" line="145"/>
+        <location filename="../view.cpp" line="174"/>
         <source>Open in Termina&amp;l</source>
         <translation>Ouvrir dans &amp;le terminal</translation>
+    </message>
+    <message>
+        <location filename="../view.cpp" line="160"/>
+        <source>Show in New T&amp;ab</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../view.cpp" line="164"/>
+        <source>Show in New Win&amp;dow</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2480,44 +2550,72 @@ lxsudo dbus-run-session -- %s</source>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../bulkrename.cpp" line="89"/>
+        <location filename="../bulkrename.cpp" line="185"/>
+        <location filename="../bulkrename.cpp" line="247"/>
+        <location filename="../bulkrename.cpp" line="288"/>
         <source>Renaming files...</source>
         <translation>Renommage des fichiers...</translation>
     </message>
     <message>
-        <location filename="../bulkrename.cpp" line="89"/>
+        <location filename="../bulkrename.cpp" line="185"/>
+        <location filename="../bulkrename.cpp" line="247"/>
+        <location filename="../bulkrename.cpp" line="288"/>
         <source>Abort</source>
         <translation>Interrompre</translation>
     </message>
     <message>
-        <location filename="../bulkrename.cpp" line="98"/>
+        <location filename="../bulkrename.cpp" line="194"/>
+        <location filename="../bulkrename.cpp" line="254"/>
+        <location filename="../bulkrename.cpp" line="295"/>
         <source>Warning</source>
         <translation>Attention</translation>
     </message>
     <message>
-        <location filename="../bulkrename.cpp" line="98"/>
+        <location filename="../bulkrename.cpp" line="194"/>
+        <location filename="../bulkrename.cpp" line="254"/>
+        <location filename="../bulkrename.cpp" line="295"/>
         <source>Renaming is aborted.</source>
         <translation>Le renommage est interrompu.</translation>
     </message>
     <message>
-        <location filename="../bulkrename.cpp" line="124"/>
-        <location filename="../bulkrename.cpp" line="127"/>
-        <location filename="../tabpage.cpp" line="1143"/>
+        <location filename="../bulkrename.cpp" line="220"/>
+        <location filename="../bulkrename.cpp" line="224"/>
+        <location filename="../bulkrename.cpp" line="234"/>
+        <location filename="../bulkrename.cpp" line="243"/>
+        <location filename="../bulkrename.cpp" line="277"/>
+        <location filename="../bulkrename.cpp" line="281"/>
+        <location filename="../bulkrename.cpp" line="318"/>
+        <location filename="../bulkrename.cpp" line="322"/>
+        <location filename="../tabpage.cpp" line="1149"/>
         <source>Error</source>
         <translation>Erreur</translation>
     </message>
     <message>
-        <location filename="../bulkrename.cpp" line="124"/>
+        <location filename="../bulkrename.cpp" line="220"/>
+        <location filename="../bulkrename.cpp" line="277"/>
+        <location filename="../bulkrename.cpp" line="318"/>
         <source>No file could be renamed.</source>
         <translation>Aucun fichier ne peut être renommé.</translation>
     </message>
     <message>
-        <location filename="../bulkrename.cpp" line="127"/>
+        <location filename="../bulkrename.cpp" line="224"/>
+        <location filename="../bulkrename.cpp" line="281"/>
+        <location filename="../bulkrename.cpp" line="322"/>
         <source>Some files could not be renamed.</source>
         <translation>Certains fichiers n&apos;ont pas pu être renommés.</translation>
     </message>
     <message>
-        <location filename="../tabpage.cpp" line="1143"/>
+        <location filename="../bulkrename.cpp" line="234"/>
+        <source>Nothing to find.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../bulkrename.cpp" line="243"/>
+        <source>Invalid regular expression.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../tabpage.cpp" line="1149"/>
         <source>Cannot open as Admin.</source>
         <translation>Impossible d&apos;ouvrir en tant qu&apos;administrateur.</translation>
     </message>
